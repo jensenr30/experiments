@@ -1,0 +1,20 @@
+        ---------------------
+press h ANYWHERE IN THIS GAME to recieve HELP information
+        ---------------------
+
+choose what you want to do by clicking on a button
+or press a key on your keyboard
+{
+	p	play game
+	
+	m	map maker
+	
+	o	options
+	
+	q	quit
+}
+
+
+Play Game - you will need to load a map (look in the "maps" directory to find some pre-made maps)
+
+or try out the MapMaker to make your own and then play on them.

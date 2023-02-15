@@ -1,0 +1,4 @@
+ways to improve the player's experience by lowering the processing power necessary to run De_Flux:
+
+- don't render static text everytime. render it once and then display it eveytime after that.
+- don't render tiles outside of the screen boundaries

@@ -1,0 +1,46 @@
+De_Flux Alpha0.4.0 Change Log
+
+=================================================================================================
+additions
+=================================================================================================
+
+- added some sounds throughout the game
+
+- changed up the main menu
+
+- added a system for making clickable buttons
+
+- added a title image to the title screen  :P
+
+- added options and the ability to change the screen size
+
+- added an inventory
+
+- added items to the game! :D very happy about this.
+
+- when playing, the screen will follow along with the player.
+
+- added collision detection.
+
+- added the portal function and teleportation features
+  the main thing I added was checking for portals when moving around,
+  and the ability to make functioning portals in mapMaker.
+
+- added help files that can be accessed by pressing 'h'
+
+- I actually remembered to include the source code in this release! hooray!
+
+- The player can now simply hold down the WASD keys to move.
+  this is a welcome change from the previous tedious system of having to rapidly
+  tap the WASD keys to move anywhere.
+
+=================================================================================================
+bug fixes from Alpha 0.3.0:
+=================================================================================================
+
+- when loading a map, the map editor now asks you if you want to save your current map first.
+
+- the load map feature doesn't bother you when you press escape
+
+- in mapMaker, the user can now erase tiles/items while panning the screen.
+  I had a slight bug with this initially, but it appears it is all resolved.

@@ -1,0 +1,25 @@
+|-------------------------------------------------------------|
+|-------------------------------------------------------------|
+| press h anywhere in the program to recieve help information |
+|-------------------------------------------------------------|
+|-------------------------------------------------------------|
+
+
+choose what you want to do by clicking on one of the buttons
+
+SHORTCUTS
+{
+	p		play game
+	
+	m		map maker
+	
+	o		options
+	
+	q		exit
+	
+	Alt+F4	exit
+}
+
+
+Play Game - you will need to load a map (look in the "maps" directory to find some pre-made maps)
+Map Maker - you can make your own maps. You can save your maps and then try running around on them.

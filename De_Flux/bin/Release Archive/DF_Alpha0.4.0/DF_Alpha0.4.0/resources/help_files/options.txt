@@ -1,0 +1,13 @@
+Esc		return to previous screen
+
+press a button to preform one of the following actions:
+
+	h++	increases screen height
+	
+	h--	decreases screen height
+	
+	w++	increases screen width
+	
+	w--	decreases screen width
+
+	

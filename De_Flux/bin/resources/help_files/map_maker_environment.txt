@@ -1,0 +1,23 @@
+
+Left Click		>	Place Item/Tile
+Shift + Left Click	>	Place Item/Tile behind all other Items/Tiles (note: items are always ontop of tiles)
+Alt + Left CLick	>	Choose defaultTile (background)
+
+Right Click		>	Remove object
+Alt + Right Click	>	Remove defaultTile (background)
+
+W, A, S, D		>	Pan the camera. This moves your view of the map around.
+
+R or SCROLL_UP		>	Zoom in
+
+F or SCROLL_DOWN	>	Zoom out
+
+T			>	Test Map in game-play mode
+
+Q, Middle Click		>	Pick object
+
+Esc			>	Exit map maker. You will return to the previous screen.
+
+Del			>	Clears the map of all items and tiles
+
+Control + z		>	undo last tile/item placed

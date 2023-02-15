@@ -1,0 +1,114 @@
+/*
+
+Ryan should add brushes.
+add .brush files that hold brushes.
+allow the user to save the map as a brush.
+so the user can place tiles around the spawn block and the tiles will be recorded relative to that spawn.
+for example:
+	Spawn = '§'
+	Tile  = 'T'
+	
+	if the user has this on the map:
+	
+	TTT
+	T§T
+	TTT
+	
+	then the user has a brush that is a ring around it.
+	
+the user could have custom brushes, and also some default brushes.
+the default would be a single tile/item.
+
+then there would be the circle and square option.
+maybe we could adjust the sizes of these brushes with the scroll wheel.
+
+
+§
+
+I need to COMPLETELY REVAMP the player game saving system.
+the way it exists now, it might as well not even exist.
+It needs to save the player's location,
+it needs to save the player's maps (because the player has the ability to change and interact with the maps)
+it needs to save all of the player's items
+it needs to save all the player's stats.
+
+§
+
+make it so that you can quickly test (walk around with a the character) on your map
+
+§
+
+add a health bar (not very crucial at the moment)
+
+§
+add items
+
+add an inventory (for mapmaker first and then for the gameplay)
+
+§
+embed a script language into the game.
+make it something that you can write on the computer.
+maybe I could incorporate a text editor from which you could write computer files.
+
+§
+crafing - specific recipies that have to made with certain ingreedients. (make a computer recipie)
+static. recipies are constant.
+the engineering part \/ is the dynamic counterpart.
+
+§
+add an engineering system by which you can combine items to add together their attributes and get one superior item in return.
+call it the engineering system. You engineer new materials out of current items.
+allow the user to rename the item and choose/make a texture for it.
+the player would be able to choose any texture in the game for their new item, or load a texture from a /item_textures/ directory.
+there should also be a picture making system in the game so that the player can draw his own textures in-game.
+custom items should be stored in memory starting at (0x80, 0x80).
+The x and y values can only increase from there.
+Therefore, the custom item part of the item_set should talk up exactly 1/4 of the item_set (assuming it goes from 0x00,0x00 to 0xFF,0xFF)
+
+§
+add a reverse engineering feature to take apart the engineered item.
+maybe?
+maybe not?
+do you get everything back?
+
+§
+Add internet capability.
+Make players report to my computer (server)
+This would hopefully develop into multiplayer functionality
+we might do this via a lua library or SDL_net if we are really suicidal.
+
+§
+add options for the map maker:
+- brushes of different sizes
+- ability to make filled and unfilled rectangles.
+- abillity to make circles (both filled and unfilled.)
+- for shapes that are unfilled, you should be able to speify their line thickness.
+
+§
+make the game so that it doesn't render text every single time. only render text when you need to.
+optimize this so that your loops are only generating text when the text changes.
+
+§
+add the ability to pick up items and put those items in the player's inventory_background
+
+
+§
+monster spawning:
+"Idea alert! Have difrent rates based on the tiles!
+Like a one tile has a 90 % chance of getting attacked while the other has a 20% chance!"
+- kastor246 from minecraft forums.
+
+try making a point where the closer you get to it, the more likely a certain monster will spawn.
+
+§
+
+add a time-based movement system.
+use SDL_GetTicks() or something like that to know how long has passed since the last itteration of the game_play cycle.
+
+§
+
+
+*/
+
+
+

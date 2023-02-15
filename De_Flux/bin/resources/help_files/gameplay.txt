@@ -1,0 +1,16 @@
+>>> GAMEPLAY CONTROLS <<<
+
+WASD		move around
+
+R			zoom in
+
+F			zoom out
+
+E			Access Inventory
+
+Esc			return to previous menu
+
+
+
+step onto a green portal to teleport.
+

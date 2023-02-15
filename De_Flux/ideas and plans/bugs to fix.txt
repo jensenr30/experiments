@@ -1,0 +1,14 @@
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§  Unfixed  §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+DATE ADDED	DESCRIPTION OF THE BUG
+
+2013-07-08	sometimes when you try to close De_Flux, it hangs and crashes. try using the debugger to evaluate why this is happening.
+
+
+
+
+
+§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§  Fixed  §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+DATE ADDED -> DATE SOLVED	DESCRIPTION OF THE BUG
+
+
+2013-05-11 -> 2013-05-11	fix the bug where when you go through a portal, the "Load map" dialog pops up momentarily.

@@ -1,0 +1,9 @@
+WASD		move around
+
+Esc		return to previous menu
+
+R		zoom in
+
+F		zoom out
+
+step on a portal to use it and teleport somewhere

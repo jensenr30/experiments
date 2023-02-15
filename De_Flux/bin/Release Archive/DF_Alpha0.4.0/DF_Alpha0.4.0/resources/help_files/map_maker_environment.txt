@@ -1,0 +1,15 @@
+
+
+Left Click		place object
+
+Right Click		remove object
+
+W, A, S, D		pan the camera. This moves your view of the map around.
+
+R			zoom in
+
+F			zoom out
+
+Q | middle click	pick object
+
+Esc			Return to previous menu

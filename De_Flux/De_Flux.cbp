@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="De_Flux" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/De_Flux" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/" />
+				<Option object_output="obj/Output" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/De_Flux" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/" />
+				<Option object_output="obj/Output" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Os" />
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDLmain -lSDL -lSDL_image -lSDL_ttf" />
+			<Add option="-lwinmm -lSDL_mixer" />
+		</Linker>
+		<Unit filename="battle.h" />
+		<Unit filename="being_def.h" />
+		<Unit filename="being_functs.h" />
+		<Unit filename="buttons.h" />
+		<Unit filename="functs.h" />
+		<Unit filename="gameplay_functs.h" />
+		<Unit filename="globals_headers.h" />
+		<Unit filename="graphics_functs.h" />
+		<Unit filename="icon.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="inv.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main_menu.h" />
+		<Unit filename="map_def.h" />
+		<Unit filename="map_functs.h" />
+		<Unit filename="mapmaker.h" />
+		<Unit filename="options.h" />
+		<Unit filename="party_def.h" />
+		<Unit filename="party_functs.h" />
+		<Unit filename="player_inv.h" />
+		<Unit filename="player_inv_functs.h" />
+		<Unit filename="tile_item_def.h" />
+		<Unit filename="tile_item_functs.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
