@@ -1,0 +1,14 @@
+# directory_rename.py
+# Ryan Jensen
+# 2019-03-30
+# used to rename all the folders in my Frank Zappa discography to something more sensible.
+
+import os, sys
+
+directory = "A:\Music\EXTERNAL\Frank Zappa"
+wd = os.listdir(directory)
+
+for i in wd:
+    print(wd[i])
+
+
