@@ -1,0 +1,48 @@
+name = 7P12ec_kNrG33mnoO94ppKfVwzEkHL3Zybp6bVqChGg7BHq2HuoHiz3v2b545H0A
+species = 3O8id6-aXao6pPJpxp0BfkEqFHFRUePbrL9UF6st5rvOrDbTYHTW4joAe3jsSRmz
+age = 0
+sex = female
+father = 
+mother = 
+
+Phenotype:
+	attack[0] = 6
+	attack[1] = 46087
+	defense[0] = 3
+	defense[1] = 21757
+	speed[0] = 7
+	speed[1] = 77093
+	size[0] = 4
+	size[1] = 35518
+	strength[0] = 1
+	strength[1] = 94807
+	intelligence[0] = 7
+	intelligence[1] = 66713
+
+Paternal Genes:
+	attack[0] = 6
+	attack[1] = 46087
+	defense[0] = 3
+	defense[1] = 82854
+	speed[0] = 2
+	speed[1] = 62649
+	size[0] = 4
+	size[1] = 35518
+	strength[0] = 1
+	strength[1] = 94807
+	intelligence[0] = 7
+	intelligence[1] = 66713
+
+Maternal Genes:
+	attack[0] = 1
+	attack[1] = 51846
+	defense[0] = 7
+	defense[1] = 21757
+	speed[0] = 7
+	speed[1] = 77093
+	size[0] = 3
+	size[1] = 6899
+	strength[0] = 7
+	strength[1] = 11031
+	intelligence[0] = 3
+	intelligence[1] = 2067

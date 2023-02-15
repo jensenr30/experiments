@@ -1,0 +1,48 @@
+name = ig4Jh-p-fC7I4PjsRTk-4rfQBo5Zyu9GKQByRAgC6MfPl48bO_E9u81-fAGTnW77
+species = 3O8id6-aXao6pPJpxp0BfkEqFHFRUePbrL9UF6st5rvOrDbTYHTW4joAe3jsSRmz
+age = 0
+sex = male
+father = 7P12ec_kNrG33mnoO94ppKfVwzEkHL3Zybp6bVqChGg7BHq2HuoHiz3v2b545H0A
+mother = 
+
+Phenotype:
+	attack[0] = 0
+	attack[1] = 0
+	defense[0] = 0
+	defense[1] = 0
+	speed[0] = 0
+	speed[1] = 0
+	size[0] = 0
+	size[1] = 0
+	strength[0] = 0
+	strength[1] = 0
+	intelligence[0] = 0
+	intelligence[1] = 0
+
+Paternal Genes:
+	attack[0] = 0
+	attack[1] = 0
+	defense[0] = 0
+	defense[1] = 0
+	speed[0] = 0
+	speed[1] = 0
+	size[0] = 0
+	size[1] = 0
+	strength[0] = 0
+	strength[1] = 0
+	intelligence[0] = 0
+	intelligence[1] = 0
+
+Maternal Genes:
+	attack[0] = 0
+	attack[1] = 0
+	defense[0] = 0
+	defense[1] = 0
+	speed[0] = 0
+	speed[1] = 0
+	size[0] = 0
+	size[1] = 0
+	strength[0] = 0
+	strength[1] = 0
+	intelligence[0] = 0
+	intelligence[1] = 0

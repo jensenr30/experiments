@@ -1,0 +1,48 @@
+name = HCt8DVJ0MdngV7lk_F1H7dhgzsh_r-3Gf9r1C5Evxy6pIJP7EDihLNLWHYtYkTym
+species = pKHfrUFomWzjSRRR8N8eS1fi98QtATB6ctxc3czyTP9WfRMLogQm7eUdRNlVnr_f
+age = 0
+sex = male
+father = 
+mother = 
+
+Phenotype:
+	attack[0] = 7
+	attack[1] = 48473
+	defense[0] = 3
+	defense[1] = 32766
+	speed[0] = 7
+	speed[1] = 74471
+	size[0] = 4
+	size[1] = 80809
+	strength[0] = 9
+	strength[1] = 64947
+	intelligence[0] = 10
+	intelligence[1] = 98845
+
+Paternal Genes:
+	attack[0] = 8
+	attack[1] = 96657
+	defense[0] = 3
+	defense[1] = 32766
+	speed[0] = 7
+	speed[1] = 74471
+	size[0] = 4
+	size[1] = 80809
+	strength[0] = 9
+	strength[1] = 64947
+	intelligence[0] = 7
+	intelligence[1] = 81952
+
+Maternal Genes:
+	attack[0] = 7
+	attack[1] = 48473
+	defense[0] = 6
+	defense[1] = 26547
+	speed[0] = 10
+	speed[1] = 9332
+	size[0] = 9
+	size[1] = 21600
+	strength[0] = 9
+	strength[1] = 13259
+	intelligence[0] = 10
+	intelligence[1] = 98845

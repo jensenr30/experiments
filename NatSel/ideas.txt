@@ -1,0 +1,58 @@
+There are species.
+each individual has a genetic "code" which is a randomly generated string of characters (exactly like a name)
+only individuals with a difference in genetic code less than a certain amount can mate.
+This allows the branching and budding off of new species from existing ones.
+
+When two lifeforms mate, they each pass on half of their own genes.
+the father randomly selects half of his genes and passes them on.
+the mother randomly selects half of her genes and passes them on.
+the child then has two sets of genes (just like in real life sexual reproduction)
+the child will have a maternal and paternal set.
+
+example: Lets suppose that a child inherits attack genes of 8 and 10.
+The child will exhibit an attack of 10. The "weaker" gene (the one that is lesser) is said to be recessive.
+I think, in this way, weak genes won't be immediately eradicated from the population.
+Genes for bad fighting skills will most definitely not be favored, but they will not exhibited in many of the lifeforms that carry them.
+
+---------------------------------------------------------------------------------------------
+
+INTELLIGENCE
+i should add intelligence
+maybe the intelligence would normally start really low
+and it would have to increase through mutation
+but it would be really really useful, so evolution would favor it
+
+---------------------------------------------------------------------------------------------
+
+GENES THAT CONTROL EXPRESSION OF OTHER GENES
+e.g. there should be an aggression gene that determines how likely a lifeform is to want to attack (use attack gene)
+there might also be a submissive gene that determines how likely a lifeform is to run away from a fight (use speed gene)
+
+---------------------------------------------------------------------------------------------
+
+SPECIES STRING THROUGH THE GENERATIONS
+Mixing species strings? should the species string be a mixture of the parent's species strings?
+for parents that are the same species, this would not matter.
+However, mixing might end up producing some kind of "average" species over time.
+This seems boring.
+However, there is the option to add a gene that determines the liklihood of the parent's species mixing instead of just being either the mother's or the father's.
+
+---------------------------------------------------------------------------------------------
+
+SEXUAL PREFERANCE
+There should be a third parameter for every trait (e.g. attack[0], attack[1], and a new third attack[2])
+attack[2] would describe how desirable the attack[0] trait is in a potential mate.
+so when two members of a species of the opposite sex meet, each one would compare the other's attack[0] with their own attack[2].
+they would try to find mates that fell within a certain percentage of their target.
+
+so, imagine that a female has a target attack (attack[2]) of 10.
+She will be more likely to mate with a male that has an attack of 9 than she is to mate with another male with an attack of 15.
+There might have to be a small amount of random probability thrown in there (to simulate the randomness of organism's behaviors).
+
+Children should inherit sexual preferences from their own gender parent.
+i.e. daughters inherit sexual preference exclusively from their mothers.
+likewise, sons would inherit sexual preference exclusively from their fathers.
+This would allow gender roles to build up in species.
+This could get interesting...
+
+
