@@ -1,0 +1,12 @@
+*.layout
+*.depend
+bin/Debug/CoSwarm.exe
+bin/Release/CoSwarm.exe
+*.o
+
+*stderr.txt
+*stdout.txt
+*.orig
+*Thumbs.db
+*.orig
+*/*.orig
