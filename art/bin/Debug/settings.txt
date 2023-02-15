@@ -1,0 +1,28 @@
+these are the initial comments.
+
+maxSize
+	(greater or equal to 2)
+		it is the max size of the rectangles printed to the screen.
+
+rectanglesPerCycle
+	(greater or equal to  1)
+		The higher this is, the more rectangles are printed to the sceen every cycle.
+
+colorVariance
+	(greater or equal to 0)
+		this tells you how much deviation from the intended color there can be.
+
+slowness
+	(greater or equal to 0)
+		the amount of time (in milliseconds) that the program will delay on each itteration.
+
+
+	TO APPLY ANY CHANGES YOU'VE MADE TO THE SETTINGS, simply save this file and click on the RUNNING Art.exe program.
+	You do NOT need to restart the program to apply your changes.
+
+
+END OF COMMENT§
+maxSize = 28
+rectanglesPerCycle = 65
+colorVariance = 23
+slowness = 3
