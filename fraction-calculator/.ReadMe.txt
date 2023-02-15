@@ -1,0 +1,12 @@
+This program is intended to have a decimal input like
+
+
+4.562
+0.632125
+3.141592654
+
+and output close integer fraction approximations like
+
+
+345/8
+5/8
