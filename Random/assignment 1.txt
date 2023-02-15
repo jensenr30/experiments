@@ -1,0 +1,10 @@
+Assignment 1:
+	
+	§	write a progam that inputs a number.
+	
+	§	make special inputs that trigger certain responses.
+		i.e. if the user enters 13, print, "That is unlucky!".
+		make special cases for 18, 21, 23, 666, and 777.
+		make the program print a special message for each number.
+	
+	§	use an if statement somewhere in your program. This is a necessity.
