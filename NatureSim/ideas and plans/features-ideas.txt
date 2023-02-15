@@ -1,0 +1,157 @@
+make a array of "cell" structures for the cell data.
+
+struct cell{
+	//the material our cell is made up of
+	short m;
+	// the material that our cell is saturated with
+	short s;
+} cells[SCREEN_WIDTH][SCREEN_HEIGHT];
+
+then change ALL OF THE PARTS IN THE CODE where it uses "cellData[][]" instead of "cells[][].m"
+
+------------------------------------------------------------------------------------------------------
+
+modify the print_cells to only print cells that have changed. get this data from the cellChanged[][] array in the evaluate_cells() function.
+
+
+------------------------------------------------------------------------------------------------------
+
+
+give blocks modifiers.
+allow grass to be modified by fire. This will basically mean that the grass is "on fire".
+allow grass to be modified by water. this will make the grass "hydrated"
+allow dirt to be modified by water. this will make the ground "moist"
+
+Add another member to the material struct.
+make it the matEffects member.
+it will describe how being saturated changes its behavior and such.
+i.e. for grass:
+	if(satured with fire){
+		30% chance of burning up
+		25% chance of spreading fire to air around it.
+	}
+
+------------------------------------------------------------------------------------------------------
+
+fire spreading leaves holes in grass. making the spreading based on modifying the grass with fire when fire is next to it might be a good idea.
+that might make things look more organic.
+
+make grass spreading based on how much water there is around the grass...? or maybe just add gravity to water...
+
+Ideas ideas ideas...
+
+------------------------------------------------------------------------------------------------------
+
+Make different grades of gravity. for instance,
+make it so that water seeks TRUELY it's own level by checking for any open spots just below its level.
+make it so that salt stacks at a 45 degree angle like so:
+		#
+	   ###
+	  #####
+	 #######
+	#########
+   ###########
+  #############
+ ###############
+#################
+
+	make gradeLength
+	and  gradeDepth
+in the materials structure.
+
+	gradeLength tells you how far away an air cell can be for the block to fill that air cell
+	gradeDepth tells you how deep the hole must be in order for the material to fill it.
+	
+To make a 45 degree angle like the salt stack shown above, simply set both to 1.
+that would mean that the air hole must be at least 1 cell below the cell that holds the material trying to move and...
+the air hole can be no more than 1 cell away.
+
+if you had:
+	gradeLength = 3;
+	gradeDepth  = 1;
+then the stack would look something like this:
+
+		 #
+	  #######
+   #############
+###################
+
+if you made the gradeLength really really big, something might act like water and seek it's own level
+
+##########################################
+
+if you had
+	gradeLength = 1;
+	gradeDepth  = 2;
+your stack of materials might look something like this:
+
+		#
+		#
+	   ###
+	   ###
+	  #####
+	  #####
+	 #######
+	 #######
+	 
+------------------------------------------------------------------------------------------------------
+
+make rippling water. (low priority)
+
+------------------------------------------------------------------------------------------------------
+
+make animals that jump around.
+They eat grass.
+when they feast on grass, there is some chance that they will give disgusting animal birth to another wild beast.
+humans can eat them.
+these animals and humans would probably not be materials.
+I would have to make a seperate thing like an "entity" or a "mob" basiclaly.
+
+
+------------------------------------------------------------------------------------------------------
+
+TREE GENERATION:
+M_wood
+make a material called "wood".
+this material will have an 80% chance of spawning more wood in the cell directly above it.
+it will have a 20% chance of spawning a material called "wood_branch" directly above it
+
+M_wood_branch
+woodbranch will have a relatively high chance of spawning leaves in the air around it.
+woodbranch will then have a smaller chance of spawning more branches where the leaves are.
+wood_branch has a good possibility of spawning "wood_end".
+
+M_wood_end
+wood_end only spawns leaves_end and some leaves in the air around itself.
+
+M_leaves
+leaves have a small chance of spawning other leaves around themselves.
+they have a much much higher chance of spawning "leaves_end"
+
+M_leaves_end
+leaves_end have a very very very small chance of spawning fruit in the air around them.
+once the fruit is spawned, it then saturates the leaves with it's fruitiness and the leaves can no longer spawn fruit.
+
+All of the above materials can be burnt.
+However, they should burn for different lengths of time.
+From fastest burning to slowest burning:
+
+	slow->	leaves_end
+			leaves
+			wood_end
+			wood_branch
+	fast->	wood
+leaves_end have a very very very small chance of spawning fruit in the air around them.
+once the fruit is spawned, it then saturates the leaves with it's fruitiness and the leaves can no longer spawn fruit.
+
+All of the above materials can be burnt.
+However, they should burn for different lengths of time.
+From fastest burning to slowest burning:
+
+	slow->	leaves_end
+			leaves
+			wood_end
+			wood_branch
+	fast->	wood
+
+------------------------------------------------------------------------------------------------------
