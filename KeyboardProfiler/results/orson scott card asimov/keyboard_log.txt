@@ -1,0 +1,40 @@
+Number of Input Arguments =	18
+
+A:\Programming\Experiments\KeyboardProfiler\bin\Debug\keyprof.exe
+A:\Programming\Experiments\KeyboardProfiler\literature\A Warehouse Diary.txt
+A:\Programming\Experiments\KeyboardProfiler\literature\Bester, Alfred - The Demolished Man.txt
+A:\Programming\Experiments\KeyboardProfiler\literature\Bester, Alfred - The Stars My Destination.txt
+A:\Programming\Experiments\KeyboardProfiler\literature\Foundation - Isaac Asimov.txt
+A:\Programming\Experiments\KeyboardProfiler\literature\Foundation and Earth - Isaac Asimov.txt
+A:\Programming\Experiments\KeyboardProfiler\literature\Foundation and Empire - Isaac Asimov.txt
+A:\Programming\Experiments\KeyboardProfiler\literature\Foundation-s Edge - Isaac Asimov.txt
+A:\Programming\Experiments\KeyboardProfiler\literature\Frustration - Isaac Asimov.txt
+A:\Programming\Experiments\KeyboardProfiler\literature\I, Robot - Isaac Asimov.txt
+A:\Programming\Experiments\KeyboardProfiler\literature\Long Afternoon.txt
+A:\Programming\Experiments\KeyboardProfiler\literature\skype piecemeal storytelling.txt
+A:\Programming\Experiments\KeyboardProfiler\literature\The Litigators - John Grisham.txt
+A:\Programming\Experiments\KeyboardProfiler\literature\01 - Ender's Game.txt
+A:\Programming\Experiments\KeyboardProfiler\literature\02 - Speaker for the Dead.txt
+A:\Programming\Experiments\KeyboardProfiler\literature\03 - Xenocide.txt
+A:\Programming\Experiments\KeyboardProfiler\literature\05 - Ender's Shadow.txt
+A:\Programming\Experiments\KeyboardProfiler\literature\11 - Ender in Exile.txt
+
+End of Input Arguments.
+
+Argument =	A:\Programming\Experiments\KeyboardProfiler\literature\A Warehouse Diary.txt
+Argument =	A:\Programming\Experiments\KeyboardProfiler\literature\Bester, Alfred - The Demolished Man.txt
+Argument =	A:\Programming\Experiments\KeyboardProfiler\literature\Bester, Alfred - The Stars My Destination.txt
+Argument =	A:\Programming\Experiments\KeyboardProfiler\literature\Foundation - Isaac Asimov.txt
+Argument =	A:\Programming\Experiments\KeyboardProfiler\literature\Foundation and Earth - Isaac Asimov.txt
+Argument =	A:\Programming\Experiments\KeyboardProfiler\literature\Foundation and Empire - Isaac Asimov.txt
+Argument =	A:\Programming\Experiments\KeyboardProfiler\literature\Foundation-s Edge - Isaac Asimov.txt
+Argument =	A:\Programming\Experiments\KeyboardProfiler\literature\Frustration - Isaac Asimov.txt
+Argument =	A:\Programming\Experiments\KeyboardProfiler\literature\I, Robot - Isaac Asimov.txt
+Argument =	A:\Programming\Experiments\KeyboardProfiler\literature\Long Afternoon.txt
+Argument =	A:\Programming\Experiments\KeyboardProfiler\literature\skype piecemeal storytelling.txt
+Argument =	A:\Programming\Experiments\KeyboardProfiler\literature\The Litigators - John Grisham.txt
+Argument =	A:\Programming\Experiments\KeyboardProfiler\literature\01 - Ender's Game.txt
+Argument =	A:\Programming\Experiments\KeyboardProfiler\literature\02 - Speaker for the Dead.txt
+Argument =	A:\Programming\Experiments\KeyboardProfiler\literature\03 - Xenocide.txt
+Argument =	A:\Programming\Experiments\KeyboardProfiler\literature\05 - Ender's Shadow.txt
+Argument =	A:\Programming\Experiments\KeyboardProfiler\literature\11 - Ender in Exile.txt
