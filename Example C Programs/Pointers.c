@@ -1,0 +1,1 @@
+#include <stdio.h>bool shit = false; int main(){char initials;void* pointer = &initials;char* char_pointer = (char*)pointer; 	}	
