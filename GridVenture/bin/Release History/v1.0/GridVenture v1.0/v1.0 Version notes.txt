@@ -1,0 +1,68 @@
+--------------------------------------------------------------
+
+GridVenture
+Version 1.0
+Released 2013-12-15 (December 15th, 2013) 9:44 PM (GMT -6:00)
+
+--------------------------------------------------------------
+>>>>		Updates:		<<<<
+--------------------------------------------------------------
+
+>	made the change from simulation mode to sandbox/rpg mode.
+
+>	changed the maximum size of the grid from 5760 x 3240 down to 1920*1080.
+
+>	Added a character the the camera follows aorund the map.
+
+>	Added player physics.
+
+>	Added manual world generation via the F1 key.
+
+>	Materials no longer disappear out the bottom of the screen.
+
+>	Added a debug screen. See it to the F3 key.
+
+>	Changed zoom from  <MouseWheel>  to  <Ctrl + MouseWheel>
+
+>	Added an inventory system and a hotbar
+
+>	Player can scroll through hotbar with the mouse wheel or the number keys
+
+--------------------------------------------------------------
+>>>>		jenNotes:		<<<<
+--------------------------------------------------------------
+	
+		The game has just taken a sharp turn from being a
+	simulation type game to an adventure RPG game. Much of the
+	work done thus far is invisible to the user. Most of the
+	things added since v0.3 have been a foundation upon which
+	the rest of the game will be built.
+		When you move around, it may seem very shakey and
+	irritating to look at. This is because, while the motion
+	of the player is calculated using floating point
+	calculations, the effective position of the player is
+	expressed using discrete integers. This will be fixed in a
+	later update.
+	
+--------------------------------------------------------------
+>>>>		Team Members:		<<<<
+--------------------------------------------------------------
+
+Ryan Jensen
+	"JensenR30"
+	Creator, Head Developer, Artist, Writer
+	JensenR30@gmail.com
+	
+Josh Pohl
+	"JPisaBrony"
+	Developer
+	jdpohl789@gmail.com
+
+Domonic Shialer
+	"Domo"
+	Artist, Writer
+	dominic.schialer@gmail.com
+	
+
+Send us an email.
+We'll write back.

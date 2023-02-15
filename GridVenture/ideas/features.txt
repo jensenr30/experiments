@@ -1,0 +1,303 @@
+
+------------------------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------------------------
+
+when the user saves a game, all the data for that player's game will need to be written to file.
+however, it might be nice to apply a cypher to the written data.
+so each letter/number has a corresponding letter/number that will be printed to the file in it's place.
+and when you are reading the file, you simply have to use that same letter/number relationship to get back the original information.
+The purpose of this will be solely to make the player data inconvenient to manipulate/change
+
+maybe have a "version.txt" included with the player's save. So then you can load old player game saves with new versions.
+I'm assuming that there might conceivably be changes to the way data is saved/loaded in the future.
+So then for each version of the game, there would be a separate way to load the data for that player.
+maybe in the "player_load()" function, there would be a switch-case statement like the following:
+(assume version is a global variable telling you what version gridVenture currently is)
+(assume saveVersion is a local variable telling you what version of gridVenture the player's data was saved with.
+
+	if(saveVersion <= 1.0) // if game is version 1.0 or older
+	{
+		// load character old way
+	}
+	else if(saveVersion <= 2.3)	// otherwise, if the user's save was made at or before version 2.3
+	{
+		// load character the new 2.3 way
+	}
+	else if(saveVersion > version) // the player was made with a newer version of gridVenture
+	{
+		// ok, the player must have been saved while playing a newer version of gridVenture.
+		// then the user must have loaded that new player data with an older client.
+		
+		// the only thing we can do here is load it with the most recent settings.
+		// but be sure to tell the user he isn't the sharpest tack in the box.
+		
+		// load character the 2.3 way
+	}
+------------------------------------------------------------------------------------------------------
+
+change the gradient function to use set_pixel instead of SDL_FillRect.
+Maybe it will be faster?
+
+------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------------------------
+
+maybe there are doors that lead into other places in the game.
+like if there are castles, maybe there is a door on the castle that leads into the castle's interior.
+and the interior of the castle is an entirely different world that would resemble the interior of the castle.
+
+I dunno. I don't like this idea.
+
+I'd rather have portals that go to entirely different worlds.
+like portals that lead to different procedurally generated worlds.
+so there are an infinite amount of worlds that you can go to.
+or maybe every time you make a portal, it generated a new world for you.
+
+
+------------------------------------------------------------------------------------------------------
+
+I'm going to make different colored materials.
+make materials have two colors instead of just one!
+make blocks that have colored centers, colered sides, or maybe even stripes!
+and make a block with a gradient.
+There are going to be a lot of complex textures if I implement this.
+It would be smart to generate all of the textures (at boot) on a surface (a sprite sheet) and then simply blit the pre-rendered images (with clips) to the screen when updating the screen.
+so that instead of rendering the material each time, you can simply copy and paste what you have already rendered at program startup.
+and maybe have some materials that will have textures.
+
+------------------------------------------------------------------------------------------------------
+
+Cave Generation
+http://jeremykun.com/2012/07/29/the-cellular-automaton-method-for-cave-generation/
+
+------------------------------------------------------------------------------------------------------
+
+I want to be able to have a bunch of different colored entities and shift their colors
+i.e. If there is...
+	1. Green grass
+	2. Blue water
+	3. and Red Fire,
+I want to be able to start shifting the colors so that...
+	1. the grass starts getting blue
+	2. water starts getting red
+	3. fire starts getting green
+A simple way to do this would just be to swap the color components
+i.e.
+	put the Red Value into Blue.
+	put the Green value into Red.
+	and put the Blue value into Green.
+but It would be so cool to be able to have a slider to slowly change between values
+
+maybe the color phase shifter doesn't have to be so complex. and maybe the intensity of light isn't based on the root of the color components squared.
+maybe the brightness of the light is simply the sum of the color components?
+maybe I could simply move in triangles on a plane perpendicular to the grey-line (the line on which all three color components are equal)
+that would probably be a lot easier.
+
+------------------------------------------------------------------------------------------------------
+
+[6:33:30 PM] Jackson B: do you think there will be a way for falling elements to displace water it hits, to give a sinking feel?
+[6:33:53 PM | Edited 6:34:30 PM] Jackson B: cuz right now it just sits on top of the water and eventually gets covered like any other of the common falling rabble
+[6:34:11 PM] Jen: yeah
+[6:34:16 PM] Jen: that could be done
+[6:34:19 PM | Edited 6:34:21 PM] Jen: i've thought about that
+[6:34:32 PM] Jen: I would basically just have a flag and a density
+[6:34:46 PM] Jen: I have yet to do that.
+[6:34:52 PM] Jen: i'll add it to the list
+[6:34:59 PM] Jackson B: will doing that displace the water or move over it?
+[6:35:14 PM] Jen: i would think it would just switch places with it
+[6:35:21 PM] Jackson B: ok
+[6:35:38 PM] Jen: or maybe...
+[6:35:47 PM] Jen: it would rush up the side...
+[6:35:49 PM] Jen: hmmm
+[6:35:52 PM] Jen: interesting stuff...
+[6:36:02 PM] Jackson B: that's where i was getting at
+
+--------------------------------------------------------------------------------
+
+make a system of dual or even triple colors where there can be verticle or horizontal stripes on materials that have dual/triple colors.
+
+the color of a normal materials is solid:
+
+- - - -
+- - - -
+- - - -
+
+the color of a striped block would look like this:
+
+# - # -
+# - # -
+# - # -
+# - # -
+
+or maybe it should be checkered
+
+# - # -
+- # - #
+# - # -
+- # - #
+
+yeah maybe this. or maybe that could be a flag?
+
+in the mats structure:
+
+colorType;
+
+#define ct_solid 0
+#define ct_striped 1
+#define ct_checkered 2
+(etc...)
+
+------------------------------------------------------------------------------------------------------
+
+add a portal feature.
+make it two blocks that send out tendril like things around them in random directions until they finally meet.
+when they meet, their connection makes a portal.
+where does the portal go? i don't know yet.
+
+------------------------------------------------------------------------------------------------------
+
+chicken and magic. not together necessarily.
+just.
+chicken.
+and also,
+magic.
+add dungeons and books that contain magic spells so that you have to collect these books at the beginning of every game to use magic.
+maybe there is one dungeon per world that contains the magic book you need.
+maybe there are other dungeons. filled with other crap too.
+like maybe some treasure?
+
+------------------------------------------------------------------------------------------------------
+
+ should make gurren laggan pixel art with gridsim
+
+------------------------------------------------------------------------------------------------------
+
+[12:18:02 AM] Jen: i think it would be neat if plant would produce something when you kill it
+[12:18:11 AM] Jen: or maybe I could nerf plant growth and make plants more valuable
+[12:18:21 AM] Jen: or make different types of plants
+[12:18:29 AM] Jen: maybe make a weed that grows really fast
+[12:18:34 AM] Jen: but doesn't really do much
+[12:18:50 AM] Jen: and then make a plant that when you harvest you get some small change of getting food or something really useful.
+[12:18:56 AM] Jen: so then you could farm shit like a boss.
+
+------------------------------------------------------------------------------------------------------
+
+add a window capture feature. allow it to export to png,jpg,bmp.
+
+------------------------------------------------------------------------------------------------------
+
+make a varible background color. maybe a gradient?
+make sunsets and dark nights and blue days.
+or you could make it so that the daytime sky has a random color. (it would be consistant on that world, but it would be random when the world is generated.
+that could be like a random variable for world generation: SKY_COLOR.
+maybe some skies would be a "classic" sky-blue whereas others might be a kind of rust colored atmosphere. still others could be greenish or reddish.
+
+------------------------------------------------------------------------------------------------------
+
+optimize the structures with the most used data types in the first 128 bytes according to this website:
+https://en.wikibooks.org/wiki/Optimizing_C%2B%2B/Code_optimization/Faster_operations
+
+------------------------------------------------------------------------------------------------------
+
+add world generation. make rock as the bottom layers, and dirt and grass as the top layers.
+add tree spawning and caves and lakes and underground water pockets.
+
+------------------------------------------------------------------------------------------------------
+
+add a playable part of the game where the player wanders the world and survives.
+
+------------------------------------------------------------------------------------------------------
+
+add weather to the game. rain? snow? maybe add a snow block?
+make weird weather.
+make some weather or seasons that aren't just your run-of-the-mill spring, summer, autum, and winter.
+make a season where drain-o rains down from the sky and kills shit.
+or make a season where the inherent grid of the game starts to show (i.e. the grid of cells that the game is comprised of starts to become visible.
+the cells start to show a shadow of an outline.
+there is a season that shows the very grid of the game itself!
+call it Fruam
+
+------------------------------------------------------------------------------------------------------
+
+PREFORMANCE INCREASE
+modify the print_cells to only print cells that have changed. i.e. only print the elements in the grid[][].matChanged that are NOT M_no_change
+# update #
+this would no longer work because gravity doesn't fuck around with matChanged.
+
+------------------------------------------------------------------------------------------------------
+
+make rippling water. (low priority)
+
+------------------------------------------------------------------------------------------------------
+
+make animals that jump around.
+They eat grass.
+when they feast on grass, there is some chance that they will give disgusting animal birth to another wild beast.
+humans can eat them.
+these animals and humans would probably not be materials.
+I would have to make a seperate thing like an "entity" that can have more complex behavioral rules.
+
+
+------------------------------------------------------------------------------------------------------
+
+TREE GENERATION:
+M_wood
+make a material called "wood".
+this material will have an 80% chance of spawning more wood in the cell directly above it.
+it will have a 20% chance of spawning a material called "wood_branch" directly above it
+
+M_wood_branch
+woodbranch will have a relatively high chance of spawning leaves in the air around it.
+woodbranch will then have a smaller chance of spawning more branches where the leaves are.
+wood_branch has a good possibility of spawning "wood_end".
+
+M_wood_end
+wood_end only spawns leaves_end and some leaves in the air around itself.
+
+M_leaves
+leaves have a small chance of spawning other leaves around themselves.
+they have a much much higher chance of spawning "leaves_end"
+
+M_leaves_end
+leaves_end have a very very very small chance of spawning fruit in the air around them.
+once the fruit is spawned, it then saturates the leaves with it's fruitiness and the leaves can no longer spawn fruit.
+
+All of the above materials can be burnt.
+However, they should burn for different lengths of time.
+From fastest burning to slowest burning:
+
+	fast->	leaves_end
+			leaves
+			wood_end
+			wood_branch
+	slow->	wood
+leaves_end have a very very very small chance of spawning fruit in the air around them.
+once the fruit is spawned, it then saturates the leaves with it's fruitiness and the leaves can no longer spawn fruit.
+
+------------------------------------------------------------------------------------------------------
+
+add a search bar in the selection gui.
+allow the user to search through all the materials by name.
+
+also allow the user to filter the materials by category:
+	allow the user to only show block with/without gravity (and maybe allow to specifically search by gravity grade)

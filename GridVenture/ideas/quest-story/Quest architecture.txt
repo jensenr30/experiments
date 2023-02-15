@@ -1,0 +1,71 @@
+most quests will have subquests.
+
+the format of the quest system might look like this:
+
+struct Quest{
+
+	// prerequisites are quests that need to be completed before you have access to the current quest.
+	// I will also require some form of NOT, AND, and OR combination of quests. That would be handy and necessary.
+	// or possibly just a NOT system. so that in order to progress in a certain quest, you would need to have not completed some other quest.
+	// in that way, you could make certain quests unavailable if you finished other ones.
+	// e.g. if you complete the "Kill the Evil Ogre" quest, then you cannot start the "Run an errand for the very much alive Evil Ogre" quest. because he would be dead and it wouldn't make any sense at all.
+	// these would probably be pointers to the quests. or better yet, simply numbers that index into the master quest array.
+	Prerequisites{
+		Quest1
+		Quest3
+		Quest16
+		Ques9
+		...
+	}
+	
+	// corequisites are quests that you need to have started. Coreq's might be unnecessary...
+	Corequisites{
+		Quest14
+		Quest3
+		...
+	}
+	
+	// each objective is a smaller part of the main quest. they contain bits and pieces of the original goals.
+	// imagine your main quest is to grow some food...
+	Objctives{
+		Quest_x_1: plant crops
+		Quest_x_2: water crops
+		Quest_x_3: harvest crops
+		...
+		Quest_x_n: ...
+	}
+	
+	// goals are things that need to be satisfied in order to complete the quest.
+	// goals basically describe the quest.
+	Goals{
+		- reached certain skill level
+		- attained certain items
+		- visited certain places
+		- talked to certain people
+	}
+	
+	// these are meta information about the quest.
+	// these are mostly true/false flags.
+	Metadata{
+		// there would  be an array of "quest finished" bools. they would tell you if you have finished the quest. each one would correspond to a different method of finishing the quest.
+		// you could check these. 
+		- bool finished[];
+		- bool available;	// this tells you if the quest is available to start
+		- bool started;
+		- bool subquest; (is this quest a subquest)
+		- bool notifications; // if true, there will be a notification upon completing the quest.
+	}
+	
+}
+
+
+the map would show when the player had started and finished quests.
+	time it took to complete:     	5 min		   7 min				  15 min	 		4 min
+	quest in progress:			|-- quest a--|---- quest b ----|-------- quest c -------|- quest d -|----  ...
+	absolute time:				0 min		 5 min			   12 min					27 min		31 min ...
+	
+	
+there must be some large fuction that checks every quest requirements.
+it will evaluate the quests and see if the user has started a quest, finished it, or even if it is available.
+to make sure it is watertight, it would loop through checking each quest until there are no new updates.
+i.e. if you unlock the ability to do another quest, then you 

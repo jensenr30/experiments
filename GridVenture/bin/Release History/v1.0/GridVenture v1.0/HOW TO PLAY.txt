@@ -1,0 +1,41 @@
+
+>
+>	START GRIDVENTURE by double clicking the "_Start_GridVenture" bat file
+>	alternatively, open the "game" folder and run GridVenture.exe
+>
+
+--------------------------------------------------------------
+	CONTROLS
+--------------------------------------------------------------
+WASD
+		move character around the map
+		
+Space Bar
+		Jump
+
+Left click
+		Gather material
+		
+Right click
+		Place tree (just for testing)
+
+Ctrl + MouseWheel
+		Zoom in/out
+		
+MouseWheel
+		cycle through hotbar items
+	
+Numbers 1-8
+		hotbar items
+
+C
+		Clear the entire grid
+	
+F1
+		world generation (in development)
+
+F3
+		debug screen
+		
+Escape
+	pause the game
