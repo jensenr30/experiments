@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+%\title{Experiments with \LaTeX}
+%\author{Ryan Jensen}
+%\date{\today}
+
+
+\begin{document}
+    
+%\begin{titlepage}
+%    \maketitle
+%\end{titlepage}
+
+%\begin{abstract}
+%    This document serves as a testing ground and personal crib sheet for the author.
+%\end{abstract}
+
+\begin{align*}
+    \mathbf{Z_{\text{series}}} &= \mathbf{Z_1} + \mathbf{Z_2} \\
+    &=  \frac{1}{j\omega C_1} + \frac{1}{j\omega C_2} \\
+    &= \frac{1}{j\omega} \left( \frac{1}{C_1} + \frac{1}{C_2} \right) \\
+    &= \frac{1}{j\omega} \left( \frac{C_2}{C_1 C_2} + \frac{C_1}{C_2 C_1} \right) \\
+    &= \frac{1}{j\omega} \left( \frac{C_1 + C_2}{C_1 C_2} \right) \\
+    &= \frac{1}{j\omega} \frac{1}{\left( \frac{C_1 C_2}{C_1 + C_2} \right)} \\
+    &= \frac{1}{j\omega\left( \frac{C_1 C_2}{C_1 + C_2} \right)}
+\end{align*}
+
+\end{document}
