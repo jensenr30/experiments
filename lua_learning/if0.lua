@@ -1,0 +1,1 @@
+if(0) then print('if(0) is true') end
