@@ -1,0 +1,537 @@
+Seconds=   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds=   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Ticks=  38.083	 block_collector() asked to clean up. Nothing to clean up. This is not necessarily an error. It could be an error or just a warning.
+Ticks=   3.086	 block_collector() asked to clean up. Nothing to clean up. This is not necessarily an error. It could be an error or just a warning.
+Ticks=  20.726	 block_collector() asked to clean up. Nothing to clean up. This is not necessarily an error. It could be an error or just a warning.
+Seconds=   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds=  13.030	block_generate_parent() was asked to regenerate parent. Child verification will still occur.
+Seconds=  13.279	block_generate_parent() was asked to regenerate parent. Child verification will still occur.
+Seconds=   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds=   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds=   1.459	block_generate_parent() was asked to regenerate parent.
+Seconds=   1.956	block_generate_parent() was asked to regenerate parent.
+Seconds=   2.010	block_generate_parent() was asked to regenerate parent.
+Seconds=   2.066	block_generate_parent() was asked to regenerate parent.
+Seconds=   2.121	block_generate_parent() was asked to regenerate parent.
+Seconds=   2.182	block_generate_parent() was asked to regenerate parent.
+Seconds=   2.237	block_generate_parent() was asked to regenerate parent.
+Seconds=   2.291	block_generate_parent() was asked to regenerate parent.
+Seconds=   2.685	block_generate_parent() was asked to regenerate parent.
+Seconds=   3.503	block_generate_parent() was asked to regenerate parent.
+Seconds=   6.122	block_generate_parent() was asked to regenerate parent.
+Seconds=   6.632	block_generate_parent() was asked to regenerate parent.
+Seconds=   9.490	block_generate_parent() was asked to regenerate parent.
+Seconds=  10.887	block_generate_parent() was asked to regenerate parent.
+Seconds=  10.887	block_generate_parent() was asked to regenerate parent.
+Seconds=  10.887	block_generate_parent() was asked to regenerate parent.
+Seconds=  10.887	block_generate_parent() was asked to regenerate parent.
+Seconds=  10.932	block_generate_parent() was asked to regenerate parent.
+Seconds=  10.932	block_generate_parent() was asked to regenerate parent.
+Seconds=  10.932	block_generate_parent() was asked to regenerate parent.
+Seconds=  10.932	block_generate_parent() was asked to regenerate parent.
+Seconds=  10.932	block_generate_parent() was asked to regenerate parent.
+Seconds=  10.932	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.104	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.104	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.104	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.104	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.104	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.104	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.104	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.104	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.104	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.104	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.104	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.320	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.320	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.320	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.320	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.320	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.320	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.321	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.321	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.321	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.488	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.489	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.489	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.489	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.628	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.628	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.628	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.628	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.628	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.629	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.997	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.997	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.997	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.997	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.997	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.997	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.997	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.997	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.997	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.997	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.997	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.997	block_generate_parent() was asked to regenerate parent.
+Seconds=  11.998	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.160	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.160	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.160	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.160	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.160	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.160	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.160	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.160	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.160	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.659	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.659	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.659	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.659	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.796	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.796	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.796	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.796	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.796	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.796	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.847	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.847	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.847	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.848	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.848	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.848	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.848	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.848	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.848	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.848	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.848	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.848	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.848	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.920	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.921	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.921	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.921	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.921	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.921	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.921	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.921	block_generate_parent() was asked to regenerate parent.
+Seconds=  12.921	block_generate_parent() was asked to regenerate parent.
+Seconds=  17.170	block_generate_parent() was asked to regenerate parent.
+Seconds=  17.619	block_generate_parent() was asked to regenerate parent.
+Seconds=  17.675	block_generate_parent() was asked to regenerate parent.
+Seconds=  17.729	block_generate_parent() was asked to regenerate parent.
+Seconds=  17.783	block_generate_parent() was asked to regenerate parent.
+Seconds=  17.838	block_generate_parent() was asked to regenerate parent.
+Seconds=  17.890	block_generate_parent() was asked to regenerate parent.
+Seconds=  17.939	block_generate_parent() was asked to regenerate parent.
+Seconds=  17.989	block_generate_parent() was asked to regenerate parent.
+Seconds=  18.038	block_generate_parent() was asked to regenerate parent.
+Seconds=  18.089	block_generate_parent() was asked to regenerate parent.
+Seconds=  18.142	block_generate_parent() was asked to regenerate parent.
+Seconds=  18.197	block_generate_parent() was asked to regenerate parent.
+Seconds=  18.253	block_generate_parent() was asked to regenerate parent.
+Seconds=  18.307	block_generate_parent() was asked to regenerate parent.
+Seconds=  18.359	block_generate_parent() was asked to regenerate parent.
+Seconds=  18.416	block_generate_parent() was asked to regenerate parent.
+Seconds=  18.472	block_generate_parent() was asked to regenerate parent.
+Seconds=  18.525	block_generate_parent() was asked to regenerate parent.
+Seconds=  18.582	block_generate_parent() was asked to regenerate parent.
+Seconds=  18.637	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.011	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.011	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.011	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.011	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.057	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.057	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.057	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.057	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.057	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.057	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.549	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.549	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.549	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.549	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.549	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.549	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.549	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.550	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.550	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.550	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.550	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.603	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.604	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.604	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.604	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.604	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.604	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.604	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.604	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.604	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.657	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.657	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.657	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.657	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.701	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.701	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.701	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.701	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.701	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.701	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.757	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.757	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.757	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.757	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.757	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.757	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.757	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.758	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.758	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.758	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.758	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.814	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.814	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.814	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.814	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.814	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.814	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.814	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.814	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.814	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.869	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.869	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.869	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.869	block_generate_parent() was asked to regenerate parent.
+Seconds=  19.869	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.052	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.052	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.052	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.052	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.052	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.052	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.102	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.102	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.102	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.102	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.102	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.103	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.103	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.103	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.103	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.103	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.103	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.103	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.103	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.103	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.103	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.154	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.154	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.154	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.154	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.154	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.154	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.154	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.155	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.155	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.209	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.209	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.209	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.209	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.255	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.255	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.255	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.255	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.255	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.255	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.311	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.311	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.311	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.312	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.312	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.312	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.312	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.312	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.312	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.312	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.312	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.368	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.369	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.369	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.369	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.369	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.369	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.369	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.369	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.369	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.426	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.427	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.427	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.427	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.471	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.471	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.471	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.471	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.471	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.471	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.529	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.529	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.529	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.529	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.529	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.529	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.529	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.529	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.529	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.529	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.529	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.586	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.586	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.586	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.586	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.586	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.586	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.586	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.586	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.586	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.636	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.636	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.636	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.636	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.636	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.726	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.726	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.726	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.726	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.726	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.726	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.782	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.782	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.783	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.783	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.783	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.783	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.783	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.783	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.783	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.783	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.783	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.783	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.783	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.861	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.861	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.862	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.862	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.862	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.862	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.862	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.862	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.862	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.934	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.935	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.935	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.935	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.980	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.980	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.981	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.981	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.981	block_generate_parent() was asked to regenerate parent.
+Seconds=  20.981	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.036	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.036	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.036	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.036	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.036	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.036	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.037	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.037	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.037	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.037	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.037	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.094	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.094	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.094	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.094	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.095	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.095	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.095	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.095	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.095	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.151	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.151	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.151	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.151	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.195	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.196	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.196	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.196	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.196	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.196	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.252	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.252	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.252	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.252	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.252	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.252	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.253	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.253	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.253	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.253	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.253	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.306	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.306	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.306	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.306	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.306	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.306	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.306	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.306	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.306	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.360	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.360	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.360	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.360	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.360	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.451	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.451	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.451	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.452	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.452	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.452	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.504	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.504	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.504	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.505	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.505	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.505	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.505	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.505	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.505	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.505	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.505	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.505	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.505	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.570	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.570	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.570	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.571	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.571	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.571	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.571	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.571	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.571	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.624	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.624	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.625	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.625	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.669	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.669	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.669	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.669	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.669	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.670	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.726	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.726	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.726	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.726	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.726	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.726	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.726	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.726	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.727	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.727	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.727	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.782	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.782	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.782	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.782	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.782	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.782	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.782	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.782	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.782	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.831	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.832	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.832	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.832	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.877	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.877	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.877	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.877	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.877	block_generate_parent() was asked to regenerate parent.
+Seconds=  21.877	block_generate_parent() was asked to regenerate parent.
+Seconds=  23.057	block_generate_parent() was asked to regenerate parent.
+Seconds=  23.057	block_generate_parent() was asked to regenerate parent.
+Seconds=  23.057	block_generate_parent() was asked to regenerate parent.
+Seconds=  23.057	block_generate_parent() was asked to regenerate parent.
+Seconds=  23.057	block_generate_parent() was asked to regenerate parent.
+Seconds=  23.057	block_generate_parent() was asked to regenerate parent.
+Seconds=  23.058	block_generate_parent() was asked to regenerate parent.
+Seconds=  23.058	block_generate_parent() was asked to regenerate parent.
+Seconds=  23.058	block_generate_parent() was asked to regenerate parent.
+Seconds=  23.058	block_generate_parent() was asked to regenerate parent.
+Seconds=  23.058	block_generate_parent() was asked to regenerate parent.
+Seconds=   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds=   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds=   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
