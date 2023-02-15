@@ -1,0 +1,52 @@
+
+
+	|=======================|
+	|=======================| how to use the C-flat script engine:
+	|=======================|
+
+option 1:
+	  drag and drop .txt files onto the C-flat engine (the Cb.exe file)
+	  then the engine will run your script. it's that simple.
+option 2:
+	  alternative: rename your .txt files to .Cb files. then configure them to open with Cb.exe.
+	  warning! this method is recommended only for computer people from the internet.
+
+
+	|=======================|
+	|=======================| basics of writing scripts:
+	|=======================|
+
+
+	commands must be written on single lines.
+
+this_is_a_command_without_arguments
+
+this is a command with some arguments
+
+this_is_two
+seperate_commands
+
+
+	comments can be made by placing a "--" anywhere on a line
+
+
+--this is a comment
+
+-this is NOT a comment.
+
+this is a command with some arguments -- this is a comment on the same line
+
+
+	|=======================|
+	|=======================| list of commands in C flat: (more useful things are coming soon)
+	|=======================|
+die		syntax:	die
+suck		syntax:	suck
+hello		syntax:	hello
+moo		syntax:	moo
+copypasta	syntax:	copypasta
+deathnote	syntax:	deathnote
+spoonbash	syntax:	spoonbash
+beep		syntax:	beep
+minecraft	syntax:	minecraft
+portal		syntax:	portal

@@ -1,0 +1,45 @@
+Cb language and engine was written by Ryan Jensen. It is open source code. If you have any comments or suggestions, email me at JensenR30@Gmail.com
+
+	|=======================|
+	|=======================| basics:
+	|=======================|
+
+
+	commands must be written on single lines.
+
+this_is_a_command_without_arguments
+
+this is a command with some arguments
+
+this_is_two
+seperate_commands
+
+
+	comments can be made by placing a "--" anywhere on a line
+	(block comments do not exist at this point.)
+
+
+--this is a comment
+
+-- this is a comment
+
+-this is NOT a comment.
+
+this is a command with some arguments -- this is a comment on the same line
+
+
+	|=======================|
+	|=======================| list of commands in C flat: (more useful commands are coming soon)
+	|=======================|
+
+
+die		syntax:	die
+suck		syntax:	suck
+hello		syntax:	hello
+moo		syntax:	moo
+copypasta	syntax:	copypasta
+deathnote	syntax:	deathnote
+spoonbash	syntax:	spoonbash
+beep		syntax:	beep
+minecraft	syntax:	minecraft
+portal		syntax:	portal

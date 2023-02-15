@@ -1,0 +1,7 @@
+--this is a sample program.
+--this is a comment.
+
+--this next line has a command on it. it is the "die" command
+die
+
+--if you drag and drop this text file onto the Cb.exe file, it should run the die command.
