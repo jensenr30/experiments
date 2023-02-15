@@ -1,0 +1,31 @@
+C_sharp/2. gravity chaos/GravityChaos/GravityChaos/bin/*
+C_sharp/2. gravity chaos/GravityChaos/GravityChaos/obj/*
+C_sharp/2. gravity chaos/GravityChaos/.vs/*
+
+C_sharp/1. learning basics/TestApp/TestApp/bin/*
+C_sharp/1. learning basics/TestApp/TestApp/obj/*
+C_sharp/1. learning basics/TestApp/.vs/*
+
+*.layout
+*.depend
+
+*.exe
+*.o
+
+*stderr.txt
+*stdout.txt
+*.orig
+
+KeyboardProfiler/literature/
+KeyboardProfiler/literature/*
+KeyboardProfiler/literature/*.*
+*/literature/
+*/literature/*
+*/literature/*.*
+
+Harmonics\ Visualizer/gamelog.txt
+Harmonics\ Visualizer/error.txt
+
+Rust/*/target/*
+Rust/*/.vscode/*
+
