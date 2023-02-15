@@ -1,0 +1,8 @@
+2015-08-15
+Josh Pohl (JPisaBrony) found the following bugs:
+	if you use extremely large data for the feilds, it doesn't display anything or it just eats ram and doesn't stop, lol
+	if you put \n as the first character's in the file, the progam will just eat ram
+	actually, its just a forward slash \ character on its own line, but it has to be the first one
+Jensen's knee-jerk reaction:
+	large data in the field causing the program to misbehave could be an internal arbitrary limit on the string size that can be input...
+	\ character causes a problem? hmmm... that is weird. I didn't think I treated those specially... Is a file I/O function expecting an escape character or something??

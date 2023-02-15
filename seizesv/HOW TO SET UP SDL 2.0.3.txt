@@ -1,0 +1,5 @@
+for detailed information, visit http://lazyfoo.net/tutorials/SDL/index.php
+
+on Linux, simply install the sdl2 packages (sdl2, sdl2_image, sdl2_ttf, etc...)
+
+on Windows, (refer to the lazyfoo tutorials)

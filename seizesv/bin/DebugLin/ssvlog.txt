@@ -1,0 +1,490 @@
+Seconds =   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds =   0.000	main() was sent argc =	2
+Seconds =   0.000	START ARGV ARGUMENT LIST:
+Seconds =   0.000	/mnt/safe1/Programming/seizesv/bin/DebugLin/seizesv
+Seconds =   0.000	test.csv
+Seconds =   0.000	END ARGV LIST
+Seconds =   0.330	length of \0 is: 	0
+Seconds =   0.330	length of NULL is :	0
+Seconds =   0.330	The result of (NULL==NULL) is:	1
+Seconds =   0.330	The result of ( 1 < (0.0/0.0) ) is:	0
+Seconds =   0.330	The result of ( 1 > (0.0/0.0) ) is:	0
+Seconds =   0.331	The result of ( -1 < (0.0/0.0) ) is:	0
+Seconds =   0.331	The result of ( -1 > (0.0/0.0) ) is:	0
+Seconds =   0.388	Column = 	cdatetime
+Seconds =   0.388	Max = 	nan
+Seconds =   0.388	min = 	nan
+Seconds =   0.388	Column = 	address
+Seconds =   0.388	Max = 	nan
+Seconds =   0.389	min = 	nan
+Seconds =   0.389	Column = 	district
+Seconds =   0.389	Max = 	6
+Seconds =   0.389	min = 	1
+Seconds =   0.389	Column = 	beat
+Seconds =   0.389	Max = 	nan
+Seconds =   0.389	min = 	nan
+Seconds =   0.390	Column = 	grid
+Seconds =   0.390	Max = 	1661
+Seconds =   0.390	min = 	102
+Seconds =   0.390	Column = 	crimedescr
+Seconds =   0.390	Max = 	nan
+Seconds =   0.390	min = 	nan
+Seconds =   0.390	Column = 	ucr_ncic_code
+Seconds =   0.391	Max = 	8102
+Seconds =   0.391	min = 	909
+Seconds =   0.391	Column = 	latitude
+Seconds =   0.391	Max = 	38.6838
+Seconds =   0.391	min = 	38.438
+Seconds =   0.391	Column = 	longitude
+Seconds =   0.392	Max = 	-121.365
+Seconds =   0.392	min = 	-121.556
+Seconds =   0.392	columns found = 	9
+Seconds =   0.392	rows found    = 	7584
+Seconds =   0.392	column title = 	cdatetime
+Seconds =   0.392	column title = 	address
+Seconds =   0.392	column title = 	district
+Seconds =   0.392	column title = 	beat
+Seconds =   0.393	column title = 	grid
+Seconds =   0.393	column title = 	crimedescr
+Seconds =   0.393	column title = 	ucr_ncic_code
+Seconds =   0.393	column title = 	latitude
+Seconds =   0.393	column title = 	longitude
+Seconds =   0.425	Done writing back to file
+Seconds =   1.019	FPS =	4
+Seconds =   1.185	LeftDown!
+Seconds =   1.650	Middleown!
+Seconds =   1.948	RightDown!
+Seconds =   2.047	FPS =	0
+Seconds =   3.073	FPS =	0
+Seconds =   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds =   0.000	main() was sent argc =	2
+Seconds =   0.000	START ARGV ARGUMENT LIST:
+Seconds =   0.000	/mnt/safe1/Programming/seizesv/bin/DebugLin/seizesv
+Seconds =   0.001	test.csv
+Seconds =   0.001	END ARGV LIST
+Seconds =   0.320	length of \0 is: 	0
+Seconds =   0.320	length of NULL is :	0
+Seconds =   0.320	The result of (NULL==NULL) is:	1
+Seconds =   0.321	The result of ( 1 < (0.0/0.0) ) is:	0
+Seconds =   0.321	The result of ( 1 > (0.0/0.0) ) is:	0
+Seconds =   0.321	The result of ( -1 < (0.0/0.0) ) is:	0
+Seconds =   0.321	The result of ( -1 > (0.0/0.0) ) is:	0
+Seconds =   0.377	Column = 	cdatetime
+Seconds =   0.377	Max = 	nan
+Seconds =   0.377	min = 	nan
+Seconds =   0.377	Column = 	address
+Seconds =   0.377	Max = 	nan
+Seconds =   0.378	min = 	nan
+Seconds =   0.378	Column = 	district
+Seconds =   0.378	Max = 	6
+Seconds =   0.378	min = 	1
+Seconds =   0.378	Column = 	beat
+Seconds =   0.378	Max = 	nan
+Seconds =   0.379	min = 	nan
+Seconds =   0.379	Column = 	grid
+Seconds =   0.379	Max = 	1661
+Seconds =   0.379	min = 	102
+Seconds =   0.379	Column = 	crimedescr
+Seconds =   0.379	Max = 	nan
+Seconds =   0.379	min = 	nan
+Seconds =   0.380	Column = 	ucr_ncic_code
+Seconds =   0.380	Max = 	8102
+Seconds =   0.380	min = 	909
+Seconds =   0.380	Column = 	latitude
+Seconds =   0.380	Max = 	38.6838
+Seconds =   0.381	min = 	38.438
+Seconds =   0.381	Column = 	longitude
+Seconds =   0.381	Max = 	-121.365
+Seconds =   0.381	min = 	-121.556
+Seconds =   0.381	columns found = 	9
+Seconds =   0.381	rows found    = 	7584
+Seconds =   0.382	column title = 	cdatetime
+Seconds =   0.382	column title = 	address
+Seconds =   0.382	column title = 	district
+Seconds =   0.382	column title = 	beat
+Seconds =   0.382	column title = 	grid
+Seconds =   0.382	column title = 	crimedescr
+Seconds =   0.382	column title = 	ucr_ncic_code
+Seconds =   0.383	column title = 	latitude
+Seconds =   0.383	column title = 	longitude
+Seconds =   0.427	Done writing back to file
+Seconds =   1.003	FPS =	4
+Seconds =   1.674	LeftDown!
+Seconds =   2.004	FPS =	0
+Seconds =   2.071	Middleown!
+Seconds =   2.336	RightDown!
+Seconds =   2.865	RightDown!
+Seconds =   3.029	FPS =	0
+Seconds =   3.164	Middleown!
+Seconds =   3.430	LeftDown!
+Seconds =   4.057	FPS =	0
+Seconds =   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds =   0.000	main() was sent argc =	2
+Seconds =   0.000	START ARGV ARGUMENT LIST:
+Seconds =   0.000	/mnt/safe1/Programming/seizesv/bin/DebugLin/seizesv
+Seconds =   0.000	test.csv
+Seconds =   0.000	END ARGV LIST
+Seconds =   0.306	length of \0 is: 	0
+Seconds =   0.306	length of NULL is :	0
+Seconds =   0.307	The result of (NULL==NULL) is:	1
+Seconds =   0.307	The result of ( 1 < (0.0/0.0) ) is:	0
+Seconds =   0.307	The result of ( 1 > (0.0/0.0) ) is:	0
+Seconds =   0.307	The result of ( -1 < (0.0/0.0) ) is:	0
+Seconds =   0.308	The result of ( -1 > (0.0/0.0) ) is:	0
+Seconds =   0.357	Column = 	cdatetime
+Seconds =   0.358	Max = 	nan
+Seconds =   0.358	min = 	nan
+Seconds =   0.358	Column = 	address
+Seconds =   0.358	Max = 	nan
+Seconds =   0.358	min = 	nan
+Seconds =   0.358	Column = 	district
+Seconds =   0.359	Max = 	6
+Seconds =   0.359	min = 	1
+Seconds =   0.359	Column = 	beat
+Seconds =   0.359	Max = 	nan
+Seconds =   0.359	min = 	nan
+Seconds =   0.359	Column = 	grid
+Seconds =   0.360	Max = 	1661
+Seconds =   0.360	min = 	102
+Seconds =   0.360	Column = 	crimedescr
+Seconds =   0.360	Max = 	nan
+Seconds =   0.360	min = 	nan
+Seconds =   0.361	Column = 	ucr_ncic_code
+Seconds =   0.361	Max = 	8102
+Seconds =   0.361	min = 	909
+Seconds =   0.361	Column = 	latitude
+Seconds =   0.361	Max = 	38.6838
+Seconds =   0.361	min = 	38.438
+Seconds =   0.362	Column = 	longitude
+Seconds =   0.362	Max = 	-121.365
+Seconds =   0.362	min = 	-121.556
+Seconds =   0.362	columns found = 	9
+Seconds =   0.362	rows found    = 	7584
+Seconds =   0.362	column title = 	cdatetime
+Seconds =   0.362	column title = 	address
+Seconds =   0.362	column title = 	district
+Seconds =   0.363	column title = 	beat
+Seconds =   0.363	column title = 	grid
+Seconds =   0.363	column title = 	crimedescr
+Seconds =   0.363	column title = 	ucr_ncic_code
+Seconds =   0.363	column title = 	latitude
+Seconds =   0.363	column title = 	longitude
+Seconds =   0.407	Done writing back to file
+Seconds =   1.020	FPS =	4
+Seconds =   2.047	FPS =	0
+Seconds =   3.073	FPS =	0
+Seconds =   4.100	FPS =	0
+Seconds =   5.127	FPS =	0
+Seconds =   6.155	FPS =	0
+Seconds =   7.184	FPS =	0
+Seconds =   8.212	FPS =	0
+Seconds =   9.240	FPS =	0
+Seconds =  10.267	FPS =	0
+Seconds =  11.294	FPS =	0
+Seconds =  12.322	FPS =	0
+Seconds =  13.347	FPS =	0
+Seconds =  14.375	FPS =	0
+Seconds =   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds =   0.000	main() was sent argc =	1
+Seconds =   0.000	START ARGV ARGUMENT LIST:
+Seconds =   0.000	/mnt/safe1/Programming/seizesv/bin/DebugLin/seizesv
+Seconds =   0.000	END ARGV LIST
+Seconds =   0.319	length of \0 is: 	0
+Seconds =   0.319	length of NULL is :	0
+Seconds =   0.319	The result of (NULL==NULL) is:	1
+Seconds =   0.320	The result of ( 1 < (0.0/0.0) ) is:	0
+Seconds =   0.320	The result of ( 1 > (0.0/0.0) ) is:	0
+Seconds =   0.320	The result of ( -1 < (0.0/0.0) ) is:	0
+Seconds =   0.320	The result of ( -1 > (0.0/0.0) ) is:	0
+Seconds =   0.320	columns found = 	1008655679
+Seconds =   0.320	rows found    = 	5
+Seconds =   0.321	column title = 	(null)
+Seconds =   0.321	column title = 	(null)
+Seconds =   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds =   0.000	main() was sent argc =	2
+Seconds =   0.000	START ARGV ARGUMENT LIST:
+Seconds =   0.000	./seizesv
+Seconds =   0.001	test.csv
+Seconds =   0.001	END ARGV LIST
+Seconds =   0.301	length of \0 is: 	0
+Seconds =   0.301	length of NULL is :	0
+Seconds =   0.301	The result of (NULL==NULL) is:	1
+Seconds =   0.301	The result of ( 1 < (0.0/0.0) ) is:	0
+Seconds =   0.301	The result of ( 1 > (0.0/0.0) ) is:	0
+Seconds =   0.301	The result of ( -1 < (0.0/0.0) ) is:	0
+Seconds =   0.302	The result of ( -1 > (0.0/0.0) ) is:	0
+Seconds =   0.348	Column = 	cdatetime
+Seconds =   0.349	Max = 	nan
+Seconds =   0.349	min = 	nan
+Seconds =   0.349	Column = 	address
+Seconds =   0.349	Max = 	nan
+Seconds =   0.349	min = 	nan
+Seconds =   0.349	Column = 	district
+Seconds =   0.349	Max = 	6
+Seconds =   0.349	min = 	1
+Seconds =   0.350	Column = 	beat
+Seconds =   0.350	Max = 	nan
+Seconds =   0.350	min = 	nan
+Seconds =   0.350	Column = 	grid
+Seconds =   0.350	Max = 	1661
+Seconds =   0.350	min = 	102
+Seconds =   0.350	Column = 	crimedescr
+Seconds =   0.350	Max = 	nan
+Seconds =   0.351	min = 	nan
+Seconds =   0.351	Column = 	ucr_ncic_code
+Seconds =   0.351	Max = 	8102
+Seconds =   0.351	min = 	909
+Seconds =   0.351	Column = 	latitude
+Seconds =   0.351	Max = 	38.6838
+Seconds =   0.351	min = 	38.438
+Seconds =   0.352	Column = 	longitude
+Seconds =   0.352	Max = 	-121.365
+Seconds =   0.352	min = 	-121.556
+Seconds =   0.352	columns found = 	9
+Seconds =   0.352	rows found    = 	7584
+Seconds =   0.352	column title = 	cdatetime
+Seconds =   0.352	column title = 	address
+Seconds =   0.352	column title = 	district
+Seconds =   0.353	column title = 	beat
+Seconds =   0.353	column title = 	grid
+Seconds =   0.353	column title = 	crimedescr
+Seconds =   0.353	column title = 	ucr_ncic_code
+Seconds =   0.353	column title = 	latitude
+Seconds =   0.353	column title = 	longitude
+Seconds =   0.397	Done writing back to file
+Seconds =   1.016	FPS =	4
+Seconds =   2.043	FPS =	0
+Seconds =   3.071	FPS =	0
+Seconds =   4.099	FPS =	0
+Seconds =   5.127	FPS =	0
+Seconds =   6.156	FPS =	0
+Seconds =   7.184	FPS =	0
+Seconds =   8.211	FPS =	0
+Seconds =   9.239	FPS =	0
+Seconds =  10.265	FPS =	0
+Seconds =  11.291	FPS =	0
+Seconds =  12.318	FPS =	0
+Seconds =  13.344	FPS =	0
+Seconds =  14.374	FPS =	0
+Seconds =  15.401	FPS =	0
+Seconds =  16.427	FPS =	0
+Seconds =  17.455	FPS =	0
+Seconds =  18.482	FPS =	0
+Seconds =  19.508	FPS =	0
+Seconds =  20.536	FPS =	0
+Seconds =  21.561	FPS =	0
+Seconds =  22.589	FPS =	0
+Seconds =  23.616	FPS =	0
+Seconds =  24.642	FPS =	0
+Seconds =  25.669	FPS =	0
+Seconds =  26.697	FPS =	0
+Seconds =  27.724	FPS =	0
+Seconds =  28.751	FPS =	0
+Seconds =  29.778	FPS =	0
+Seconds =  30.807	FPS =	0
+Seconds =  31.835	FPS =	0
+Seconds =  32.863	FPS =	0
+Seconds =  33.890	FPS =	0
+Seconds =  34.918	FPS =	0
+Seconds =  35.944	FPS =	0
+Seconds =  36.972	FPS =	0
+Seconds =  37.998	FPS =	0
+Seconds =  39.024	FPS =	0
+Seconds =  40.051	FPS =	0
+Seconds =  41.078	FPS =	0
+Seconds =  42.106	FPS =	0
+Seconds =  43.112	FPS =	3
+Seconds =  44.141	FPS =	36
+Seconds =  45.165	FPS =	33
+Seconds =  46.177	FPS =	26
+Seconds =  47.192	FPS =	12
+Seconds =  48.212	FPS =	6
+Seconds =  49.240	FPS =	0
+Seconds =  50.246	FPS =	6
+Seconds =  51.275	FPS =	18
+Seconds =  52.279	FPS =	14
+Seconds =  53.314	FPS =	29
+Seconds =  54.351	FPS =	31
+Seconds =  55.354	FPS =	26
+Seconds =  56.377	FPS =	26
+Seconds =  57.407	FPS =	51
+Seconds =  58.418	FPS =	48
+Seconds =  59.427	FPS =	52
+Seconds =  60.453	FPS =	50
+Seconds =  61.470	FPS =	32
+Seconds =  62.489	FPS =	41
+Seconds =  63.492	FPS =	48
+Seconds =  64.506	FPS =	24
+Seconds =  65.532	FPS =	20
+Seconds =  66.561	FPS =	22
+Seconds =  67.567	FPS =	48
+Seconds =  68.590	FPS =	34
+Seconds =  69.614	FPS =	32
+Seconds =  70.617	FPS =	44
+Seconds =  71.636	FPS =	39
+Seconds =  72.667	FPS =	2
+Seconds =  73.697	FPS =	0
+Seconds =  74.722	FPS =	0
+Seconds =  75.750	FPS =	0
+Seconds =  76.778	FPS =	0
+Seconds =  77.804	FPS =	0
+Seconds =  78.831	FPS =	0
+Seconds =  79.859	FPS =	0
+Seconds =  80.887	FPS =	0
+Seconds =  81.915	FPS =	0
+Seconds =  82.944	FPS =	0
+Seconds =  83.971	FPS =	0
+Seconds =  85.000	FPS =	0
+Seconds =  86.025	FPS =	0
+Seconds =  87.052	FPS =	0
+Seconds =  88.080	FPS =	0
+Seconds =  89.108	FPS =	0
+Seconds =  90.135	FPS =	0
+Seconds =  91.163	FPS =	0
+Seconds =  92.189	FPS =	0
+Seconds =  93.217	FPS =	0
+Seconds =  94.243	FPS =	0
+Seconds =  95.270	FPS =	0
+Seconds =  96.296	FPS =	0
+Seconds =  97.324	FPS =	0
+Seconds =  98.351	FPS =	0
+Seconds =  99.378	FPS =	0
+Seconds = 100.406	FPS =	0
+Seconds = 101.435	FPS =	0
+Seconds = 102.461	FPS =	0
+Seconds = 103.488	FPS =	0
+Seconds = 104.515	FPS =	0
+Seconds = 105.542	FPS =	0
+Seconds = 106.569	FPS =	0
+Seconds = 107.598	FPS =	0
+Seconds = 108.626	FPS =	0
+Seconds = 109.653	FPS =	0
+Seconds = 110.681	FPS =	0
+Seconds = 111.709	FPS =	0
+Seconds = 112.736	FPS =	0
+Seconds = 113.764	FPS =	0
+Seconds = 114.790	FPS =	0
+Seconds = 115.815	FPS =	0
+Seconds = 116.842	FPS =	0
+Seconds = 117.869	FPS =	0
+Seconds = 118.897	FPS =	0
+Seconds = 119.924	FPS =	0
+Seconds = 120.948	FPS =	0
+Seconds = 121.976	FPS =	0
+Seconds = 123.002	FPS =	0
+Seconds = 124.029	FPS =	0
+Seconds = 125.055	FPS =	0
+Seconds = 126.081	FPS =	0
+Seconds = 127.109	FPS =	0
+Seconds = 128.136	FPS =	0
+Seconds = 129.161	FPS =	0
+Seconds = 130.189	FPS =	0
+Seconds = 131.217	FPS =	0
+Seconds = 132.246	FPS =	0
+Seconds = 133.273	FPS =	0
+Seconds = 134.300	FPS =	0
+Seconds = 135.328	FPS =	0
+Seconds = 136.356	FPS =	0
+Seconds = 137.384	FPS =	0
+Seconds = 138.411	FPS =	0
+Seconds = 139.437	FPS =	0
+Seconds = 140.463	FPS =	0
+Seconds = 141.492	FPS =	0
+Seconds = 142.519	FPS =	0
+Seconds = 143.547	FPS =	0
+Seconds = 144.575	FPS =	0
+Seconds = 145.601	FPS =	0
+Seconds = 146.629	FPS =	0
+Seconds = 147.657	FPS =	0
+Seconds = 148.686	FPS =	0
+Seconds = 149.714	FPS =	0
+Seconds = 150.742	FPS =	0
+Seconds = 151.769	FPS =	0
+Seconds = 152.796	FPS =	0
+Seconds = 153.823	FPS =	0
+Seconds = 154.851	FPS =	0
+Seconds = 155.880	FPS =	0
+Seconds = 156.907	FPS =	0
+Seconds = 157.935	FPS =	0
+Seconds = 158.960	FPS =	0
+Seconds = 159.988	FPS =	0
+Seconds = 161.016	FPS =	0
+Seconds = 162.044	FPS =	0
+Seconds = 163.070	FPS =	0
+Seconds = 164.096	FPS =	0
+Seconds = 165.124	FPS =	0
+Seconds = 166.153	FPS =	0
+Seconds = 167.179	FPS =	0
+Seconds = 168.206	FPS =	0
+Seconds = 169.234	FPS =	0
+Seconds = 170.261	FPS =	0
+Seconds = 171.289	FPS =	0
+Seconds = 172.315	FPS =	0
+Seconds = 173.343	FPS =	0
+Seconds = 174.372	FPS =	0
+Seconds = 175.399	FPS =	0
+Seconds = 176.427	FPS =	0
+Seconds = 177.455	FPS =	0
+Seconds = 178.483	FPS =	0
+Seconds = 179.511	FPS =	0
+Seconds = 180.538	FPS =	0
+Seconds = 181.565	FPS =	0
+Seconds = 182.592	FPS =	0
+Seconds = 183.620	FPS =	0
+Seconds = 184.647	FPS =	0
+Seconds = 185.673	FPS =	0
+Seconds = 186.701	FPS =	0
+Seconds = 187.729	FPS =	0
+Seconds = 188.756	FPS =	0
+Seconds = 189.782	FPS =	0
+Seconds = 190.808	FPS =	0
+Seconds = 191.836	FPS =	0
+Seconds = 192.862	FPS =	0
+Seconds = 193.890	FPS =	0
+Seconds = 194.918	FPS =	0
+Seconds = 195.944	FPS =	0
+Seconds = 196.971	FPS =	0
+Seconds = 198.000	FPS =	0
+Seconds = 199.026	FPS =	0
+Seconds = 200.054	FPS =	0
+Seconds = 201.083	FPS =	0

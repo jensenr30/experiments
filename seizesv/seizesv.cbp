@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="seizesv" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="DebugWin">
+				<Option output="bin/DebugWin/seizesv" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/DebugWin" />
+				<Option object_output="obj/DebugWin/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option parameters="test.csv" />
+				<Compiler>
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDL2main -lSDL2 -lwinmm -lSDL2_image" />
+				</Linker>
+			</Target>
+			<Target title="ReleaseWin">
+				<Option output="bin/ReleaseWin/seizesv" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/ReleaseWin" />
+				<Option object_output="obj/ReleaseWin/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lmingw32 -lSDL2main -lSDL2 -lwinmm -lSDL2_image" />
+				</Linker>
+			</Target>
+			<Target title="DebugLin">
+				<Option output="bin/DebugLin/seizesv" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/DebugLin" />
+				<Option object_output="obj/DebugLin/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option parameters="test.csv" />
+				<Compiler>
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lSDL2" />
+				</Linker>
+			</Target>
+			<Target title="ReleaseLin">
+				<Option output="bin/ReleaseLin/seizesv" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/ReleaseLin" />
+				<Option object_output="obj/ReleaseLin/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option parameters="test.csv" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O3" />
+					<Add option="-Wall" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lSDL2" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="globals.h" />
+		<Unit filename="graphics.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="seizesv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="seizesv.h" />
+		<Unit filename="seizesv_plot.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="seizesv_plot.h" />
+		<Unit filename="utilities.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="utilities.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build extract_all="1" extract_private="1" extract_static="1" />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

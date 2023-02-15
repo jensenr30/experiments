@@ -1,0 +1,152 @@
+#include <stdio.h>
+#include "utilities.h"
+#include "globals.h"
+
+
+// this will log an error message to the error file
+void error(char *errstr){
+	// open error log file
+	FILE *fp = fopen(ERROR_FILE, ERROR_FILE_MODE);
+	// if the error file is valid,
+	if(fp != NULL){
+		// write error log to error file
+		fprintf( fp, ERROR_FORMAT, ERROR_TIMESTAMP, errstr );
+		// close error fille
+		fclose(fp);
+	}
+}
+
+// this will log an error message and an integer of data to the error file
+void error_d(char *errstr, int data){
+	// open error log file
+	FILE *fp = fopen(ERROR_FILE,ERROR_FILE_MODE);
+	// if the error file is valid,
+	if(fp != NULL){
+		// write error log to error file
+		fprintf( fp, ERROR_FORMAT_D, ERROR_TIMESTAMP, errstr, data );
+		// close error fille
+		fclose(fp);
+	}
+}
+
+// this will log an error message and a floating point number to the error file
+void error_f(char *errstr, float data){
+	// open error log file 
+	FILE *fp = fopen(ERROR_FILE,ERROR_FILE_MODE);
+	// if the error file is valid,
+	if(fp != NULL){
+		// write error log to error file
+		fprintf( fp, ERROR_FORMAT_F, ERROR_TIMESTAMP, errstr, data );
+		// close error fille
+		fclose(fp);
+	}
+}
+
+
+void ssvlog(char *gamestr){
+	FILE *fp = fopen(GAMELOG_FILE, GAMELOG_FILE_MODE);
+	// if the error file is valid,
+	if(fp != NULL){
+		// write error log to error file
+		fprintf( fp, SSVLOG_FORMAT, GAMELOG_TIMESTAMP, gamestr);
+		// close error fille
+		fclose(fp);
+	}
+}
+
+void ssvlog_d(char *gamestr, int data){
+	FILE *fp = fopen(GAMELOG_FILE, GAMELOG_FILE_MODE);
+	// if the error file is valid,
+	if(fp != NULL){
+		// write error log to error file
+		fprintf( fp, SSVLOG_FORMAT_D, GAMELOG_TIMESTAMP, gamestr, data);
+		// close error fille
+		fclose(fp);
+	}
+}
+
+void ssvlog_f(char *gamestr, double data){
+	FILE *fp = fopen(GAMELOG_FILE, GAMELOG_FILE_MODE);
+	// if the error file is valid,
+	if(fp != NULL){
+		// write error log to error file
+		fprintf( fp, SSVLOG_FORMAT_F, GAMELOG_TIMESTAMP, gamestr, data);
+		// close error fille
+		fclose(fp);
+	}
+}
+
+void ssvlog_s(char *gamestr, char *data){
+	FILE *fp = fopen(GAMELOG_FILE, GAMELOG_FILE_MODE);
+	// if the error file is valid,
+	if(fp != NULL){
+		// write error log to error file
+		fprintf( fp, SSVLOG_FORMAT_s, GAMELOG_TIMESTAMP, gamestr, data);
+		// close error fille
+		fclose(fp);
+	}
+}
+
+
+void ssvlog_startup( int argc, char **argv)
+{
+	ssvlog("\n\n\n\n== PROGRAM START ======================================================\n\n\n\n");
+	ssvlog_d("main() was sent argc =", argc);
+	int arg;
+	ssvlog("START ARGV ARGUMENT LIST:");
+	// print all arguments
+	for(arg=0; arg<argc; arg++){
+		ssvlog(argv[arg]);
+	}
+	ssvlog("END ARGV LIST");
+	
+}
+
+
+
+// returns 1 if everything initialized correctly.
+// returns 0 if anything screwed up.
+int init_SDL(){
+	if( SDL_Init(SDL_INIT_EVERYTHING) == -1 ){
+		error("init_SDL(): couldn't initialize SDL using SDL_Init(SDL_INIT_EVERYTHING)");
+		return 0;
+	}
+	return 1;
+}
+
+
+///this returns a pointer to an SDL_Surface
+// you should probably free this surface when you are done with it with SDL_DestroySurface() (I think)
+SDL_Surface *create_surface(int width, int height){
+
+	// try to create surface
+	SDL_Surface *retSurf = SDL_CreateRGBSurface(SDL_SWSURFACE, width, height, 32, 0x00FF0000, 0x0000FF00, 0x000000FF, 0xff000000);
+
+	// check to see if the surface creation went well
+	if(retSurf == NULL){
+		error("create_surface() could not create surface");
+		return NULL;
+	}
+	
+	return retSurf;
+}
+
+
+void clean_up(){
+	
+	// destroy the main window, main renderer, and main texture.
+	//SDL_DestroyRenderer(myRenderer);
+	//SDL_DestroyTexture(myTexture);
+	//SDL_DestroyWindow(myWindow);
+	
+	SDL_Quit();
+	
+	
+}
+
+
+
+
+
+
+

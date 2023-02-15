@@ -1,0 +1,248 @@
+Seconds =   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds =   0.000	main() was sent argc =	1
+Seconds =   0.000	START ARGV ARGUMENT LIST:
+Seconds =   0.000	/mnt/safe/Programming/seizesv/bin/ReleaseLin/seizesv
+Seconds =   0.001	END ARGV LIST
+Seconds =   0.310	length of \0 is: 	0
+Seconds =   0.311	length of NULL is :	0
+Seconds =   0.311	columns found = 	1
+Seconds =   0.312	rows found    = 	4208269
+Seconds =   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds =   0.000	main() was sent argc =	2
+Seconds =   0.000	START ARGV ARGUMENT LIST:
+Seconds =   0.001	./seizesv
+Seconds =   0.001	test.csv
+Seconds =   0.001	END ARGV LIST
+Seconds =   0.293	length of \0 is: 	0
+Seconds =   0.293	length of NULL is :	0
+Seconds =   0.355	columns found = 	9
+Seconds =   0.355	rows found    = 	7584
+Seconds =   0.355	column title = 	cdatetime
+Seconds =   0.355	column title = 	address
+Seconds =   0.355	column title = 	district
+Seconds =   0.355	column title = 	beat
+Seconds =   0.355	column title = 	grid
+Seconds =   0.356	column title = 	crimedescr
+Seconds =   0.356	column title = 	ucr_ncic_code
+Seconds =   0.356	column title = 	latitude
+Seconds =   0.356	column title = 	longitude
+Seconds =   0.400	Done writing back to file
+Seconds =   1.004	FPS =	35
+Seconds =   2.015	FPS =	77
+Seconds =   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds =   0.000	main() was sent argc =	2
+Seconds =   0.000	START ARGV ARGUMENT LIST:
+Seconds =   0.000	./seizesv
+Seconds =   0.001	test.csv
+Seconds =   0.001	END ARGV LIST
+Seconds =   0.308	length of \0 is: 	0
+Seconds =   0.308	length of NULL is :	0
+Seconds =   0.364	columns found = 	9
+Seconds =   0.364	rows found    = 	7584
+Seconds =   0.364	column title = 	cdatetime
+Seconds =   0.364	column title = 	address
+Seconds =   0.365	column title = 	district
+Seconds =   0.365	column title = 	beat
+Seconds =   0.365	column title = 	grid
+Seconds =   0.365	column title = 	crimedescr
+Seconds =   0.365	column title = 	ucr_ncic_code
+Seconds =   0.365	column title = 	latitude
+Seconds =   0.365	column title = 	longitude
+Seconds =   0.406	Done writing back to file
+Seconds =   1.003	FPS =	34
+Seconds =   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds =   0.000	main() was sent argc =	1
+Seconds =   0.000	START ARGV ARGUMENT LIST:
+Seconds =   0.001	/mnt/safe/Programming/seizesv/bin/ReleaseLin/seizesv
+Seconds =   0.001	END ARGV LIST
+Seconds =   0.319	length of \0 is: 	0
+Seconds =   0.319	length of NULL is :	0
+Seconds =   0.320	columns found = 	1
+Seconds =   0.320	rows found    = 	4208253
+Seconds =   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds =   0.000	main() was sent argc =	1
+Seconds =   0.000	START ARGV ARGUMENT LIST:
+Seconds =   0.000	/mnt/safe/Programming/seizesv/bin/ReleaseLin/seizesv
+Seconds =   0.001	END ARGV LIST
+Seconds =   0.313	length of \0 is: 	0
+Seconds =   0.313	length of NULL is :	0
+Seconds =   0.313	columns found = 	1
+Seconds =   0.314	rows found    = 	4208253
+Seconds =   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds =   0.000	main() was sent argc =	1
+Seconds =   0.000	START ARGV ARGUMENT LIST:
+Seconds =   0.001	/mnt/safe/Programming/seizesv/bin/ReleaseLin/seizesv
+Seconds =   0.001	END ARGV LIST
+Seconds =   0.315	length of \0 is: 	0
+Seconds =   0.316	length of NULL is :	0
+Seconds =   0.316	columns found = 	1
+Seconds =   0.316	rows found    = 	4208253
+Seconds =   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds =   0.000	main() was sent argc =	2
+Seconds =   0.000	START ARGV ARGUMENT LIST:
+Seconds =   0.000	/mnt/safe/Programming/seizesv/bin/ReleaseLin/seizesv
+Seconds =   0.001	test.csv
+Seconds =   0.001	END ARGV LIST
+Seconds =   0.320	length of \0 is: 	0
+Seconds =   0.321	length of NULL is :	0
+Seconds =   0.378	columns found = 	9
+Seconds =   0.378	rows found    = 	7584
+Seconds =   0.378	column title = 	cdatetime
+Seconds =   0.378	column title = 	address
+Seconds =   0.378	column title = 	district
+Seconds =   0.378	column title = 	beat
+Seconds =   0.379	column title = 	grid
+Seconds =   0.379	column title = 	crimedescr
+Seconds =   0.379	column title = 	ucr_ncic_code
+Seconds =   0.379	column title = 	latitude
+Seconds =   0.379	column title = 	longitude
+Seconds =   0.432	Done writing back to file
+Seconds =   1.015	FPS =	32
+Seconds =   2.025	FPS =	82
+Seconds =   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds =   0.000	main() was sent argc =	2
+Seconds =   0.000	START ARGV ARGUMENT LIST:
+Seconds =   0.000	/mnt/safe/Programming/seizesv/bin/ReleaseLin/seizesv
+Seconds =   0.000	test.csv
+Seconds =   0.001	END ARGV LIST
+Seconds =   0.302	length of \0 is: 	0
+Seconds =   0.303	length of NULL is :	0
+Seconds =   0.360	columns found = 	9
+Seconds =   0.360	rows found    = 	7584
+Seconds =   0.360	column title = 	cdatetime
+Seconds =   0.360	column title = 	address
+Seconds =   0.360	column title = 	district
+Seconds =   0.361	column title = 	beat
+Seconds =   0.361	column title = 	grid
+Seconds =   0.361	column title = 	crimedescr
+Seconds =   0.361	column title = 	ucr_ncic_code
+Seconds =   0.361	column title = 	latitude
+Seconds =   0.361	column title = 	longitude
+Seconds =   0.409	Done writing back to file
+Seconds =   1.009	FPS =	36
+Seconds =   2.014	FPS =	87
+Seconds =   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds =   0.000	main() was sent argc =	2
+Seconds =   0.000	START ARGV ARGUMENT LIST:
+Seconds =   0.000	./seizesv
+Seconds =   0.000	test.csv
+Seconds =   0.000	END ARGV LIST
+Seconds =   0.298	length of \0 is: 	0
+Seconds =   0.298	length of NULL is :	0
+Seconds =   0.353	columns found = 	9
+Seconds =   0.354	rows found    = 	7584
+Seconds =   0.354	column title = 	cdatetime
+Seconds =   0.354	column title = 	address
+Seconds =   0.354	column title = 	district
+Seconds =   0.354	column title = 	beat
+Seconds =   0.354	column title = 	grid
+Seconds =   0.354	column title = 	crimedescr
+Seconds =   0.355	column title = 	ucr_ncic_code
+Seconds =   0.355	column title = 	latitude
+Seconds =   0.355	column title = 	longitude
+Seconds =   0.396	Done writing back to file
+Seconds =   1.002	FPS =	42
+Seconds =   2.007	FPS =	87
+Seconds =   3.017	FPS =	90
+Seconds =   0.000	
+
+
+
+== PROGRAM START ======================================================
+
+
+
+
+Seconds =   0.000	main() was sent argc =	2
+Seconds =   0.000	START ARGV ARGUMENT LIST:
+Seconds =   0.000	/mnt/safe/Programming/seizesv/bin/ReleaseLin/seizesv
+Seconds =   0.000	test.csv
+Seconds =   0.001	END ARGV LIST
+Seconds =   0.268	length of \0 is: 	0
+Seconds =   0.268	length of NULL is :	0
+Seconds =   0.329	columns found = 	9
+Seconds =   0.329	rows found    = 	7584
+Seconds =   0.329	column title = 	cdatetime
+Seconds =   0.329	column title = 	address
+Seconds =   0.330	column title = 	district
+Seconds =   0.330	column title = 	beat
+Seconds =   0.330	column title = 	grid
+Seconds =   0.330	column title = 	crimedescr
+Seconds =   0.330	column title = 	ucr_ncic_code
+Seconds =   0.330	column title = 	latitude
+Seconds =   0.330	column title = 	longitude
+Seconds =   0.369	Done writing back to file
+Seconds =   1.007	FPS =	44
+Seconds =   2.016	FPS =	87
