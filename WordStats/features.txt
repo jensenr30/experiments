@@ -1,0 +1,3 @@
+compile the results into a single txt document.
+
+add graphical analysis of the results
