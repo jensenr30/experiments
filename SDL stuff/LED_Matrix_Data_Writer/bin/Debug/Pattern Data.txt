@@ -1,0 +1,120 @@
+dispdata[0] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[1] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[2] = (2 * 0x1c) + 0;	//   - - - O O O - - -
+dispdata[3] = (2 * 0x14) + 0;	//   - - - O - O - - -
+dispdata[4] = (2 * 0x1c) + 0;	//   - - - O O O - - -
+dispdata[5] = (2 * 0x14) + 0;	//   - - - O - O - - -
+dispdata[6] = (2 * 0x14) + 0;	//   - - - O - O - - -
+dispdata[7] = (2 * 0x1c) + 0;	//   - - - O O O - - -
+dispdata[8] = (2 * 0x00) + 0;	//   - - - - - - - - -
+
+disp(10);
+
+dispdata[0] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[1] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[2] = (2 * 0x1c) + 0;	//   - - - O O O - - -
+dispdata[3] = (2 * 0x14) + 0;	//   - - - O - O - - -
+dispdata[4] = (2 * 0x1c) + 0;	//   - - - O O O - - -
+dispdata[5] = (2 * 0x14) + 0;	//   - - - O - O - - -
+dispdata[6] = (2 * 0x14) + 0;	//   - - - O - O - - -
+dispdata[7] = (2 * 0x1c) + 0;	//   - - - O O O - - -
+dispdata[8] = (2 * 0x00) + 1;	//   - - - - - - - - O
+
+disp(10);
+
+dispdata[0] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[1] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[2] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[3] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[4] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[5] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[6] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[7] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[8] = (2 * 0x00) + 0;	//   - - - - - - - - -
+
+disp(10);
+
+dispdata[0] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[1] = (2 * 0x42) + 0;	//   - O - - - - O - -
+dispdata[2] = (2 * 0x08) + 0;	//   - - - - O - - - -
+dispdata[3] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[4] = (2 * 0x21) + 0;	//   - - O - - - - O -
+dispdata[5] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[6] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[7] = (2 * 0x80) + 0;	//   O - - - - - - - -
+dispdata[8] = (2 * 0x00) + 0;	//   - - - - - - - - -
+
+disp(10);
+
+dispdata[0] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[1] = (2 * 0x42) + 0;	//   - O - - - - O - -
+dispdata[2] = (2 * 0x08) + 0;	//   - - - - O - - - -
+dispdata[3] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[4] = (2 * 0x21) + 0;	//   - - O - - - - O -
+dispdata[5] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[6] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[7] = (2 * 0x80) + 0;	//   O - - - - - - - -
+dispdata[8] = (2 * 0x00) + 0;	//   - - - - - - - - -
+
+disp(10);
+
+dispdata[0] = (2 * 0xff) + 1;	//   O O O O O O O O O
+dispdata[1] = (2 * 0xe3) + 1;	//   O O O - - - O O O
+dispdata[2] = (2 * 0xe3) + 1;	//   O O O - - - O O O
+dispdata[3] = (2 * 0xe3) + 1;	//   O O O - - - O O O
+dispdata[4] = (2 * 0xe3) + 1;	//   O O O - - - O O O
+dispdata[5] = (2 * 0xe3) + 1;	//   O O O - - - O O O
+dispdata[6] = (2 * 0xe3) + 1;	//   O O O - - - O O O
+dispdata[7] = (2 * 0xff) + 1;	//   O O O O O O O O O
+dispdata[8] = (2 * 0xff) + 1;	//   O O O O O O O O O
+
+disp(10);
+
+dispdata[0] = (2 * 0xff) + 1;	//   O O O O O O O O O
+dispdata[1] = (2 * 0xc3) + 1;	//   O O - - - - O O O
+dispdata[2] = (2 * 0xc3) + 1;	//   O O - - - - O O O
+dispdata[3] = (2 * 0xc3) + 1;	//   O O - - - - O O O
+dispdata[4] = (2 * 0xc3) + 1;	//   O O - - - - O O O
+dispdata[5] = (2 * 0xc3) + 1;	//   O O - - - - O O O
+dispdata[6] = (2 * 0xc3) + 1;	//   O O - - - - O O O
+dispdata[7] = (2 * 0xff) + 1;	//   O O O O O O O O O
+dispdata[8] = (2 * 0xff) + 1;	//   O O O O O O O O O
+
+disp(10);
+
+dispdata[0] = (2 * 0xff) + 1;	//   O O O O O O O O O
+dispdata[1] = (2 * 0xc3) + 1;	//   O O - - - - O O O
+dispdata[2] = (2 * 0xc3) + 1;	//   O O - - - - O O O
+dispdata[3] = (2 * 0xc3) + 1;	//   O O - - - - O O O
+dispdata[4] = (2 * 0xc3) + 1;	//   O O - - - - O O O
+dispdata[5] = (2 * 0xc3) + 1;	//   O O - - - - O O O
+dispdata[6] = (2 * 0xc3) + 1;	//   O O - - - - O O O
+dispdata[7] = (2 * 0xff) + 1;	//   O O O O O O O O O
+dispdata[8] = (2 * 0xff) + 1;	//   O O O O O O O O O
+
+disp(10);
+
+dispdata[0] = (2 * 0x7f) + 0;	//   - O O O O O O O -
+dispdata[1] = (2 * 0xbe) + 1;	//   O - O O O O O - O
+dispdata[2] = (2 * 0xdd) + 1;	//   O O - O O O - O O
+dispdata[3] = (2 * 0xeb) + 1;	//   O O O - O - O O O
+dispdata[4] = (2 * 0xf7) + 1;	//   O O O O - O O O O
+dispdata[5] = (2 * 0xeb) + 1;	//   O O O - O - O O O
+dispdata[6] = (2 * 0xdd) + 1;	//   O O - O O O - O O
+dispdata[7] = (2 * 0xbe) + 1;	//   O - O O O O O - O
+dispdata[8] = (2 * 0x7f) + 0;	//   - O O O O O O O -
+
+disp(10);
+
+dispdata[0] = (2 * 0x22) + 0;	//   - - O - - - O - -
+dispdata[1] = (2 * 0x22) + 0;	//   - - O - - - O - -
+dispdata[2] = (2 * 0x22) + 0;	//   - - O - - - O - -
+dispdata[3] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[4] = (2 * 0x00) + 0;	//   - - - - - - - - -
+dispdata[5] = (2 * 0x80) + 1;	//   O - - - - - - - O
+dispdata[6] = (2 * 0x41) + 1;	//   - O - - - - - O O
+dispdata[7] = (2 * 0x63) + 0;	//   - O O - - - O O -
+dispdata[8] = (2 * 0x3f) + 0;	//   - - O O O O O O -
+
+disp(10);
+
