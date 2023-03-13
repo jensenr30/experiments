@@ -1,0 +1,5 @@
+2023-02-25T00:09:14.580675300-06:00 INFO wiki_tui::logging - successfully initialized the logging system
+2023-02-25T00:09:14.580963500-06:00 INFO wiki_tui - searching for the article: philosophy
+2023-02-25T00:09:14.967643600-06:00 INFO wiki_tui::ui::search::display - displaying '10' search results
+2023-02-25T00:09:14.967730400-06:00 INFO wiki_tui::ui::search - selecting the item 'Outline of philosophy', page id: '3073531'
+2023-02-25T00:09:14.967763900-06:00 INFO wiki_tui::ui::search - selecting the item 'Philosophy', page id: '13692155'
