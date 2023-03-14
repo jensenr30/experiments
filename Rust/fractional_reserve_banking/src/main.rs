@@ -1,5 +1,4 @@
 // calculate how much money could possibly be created when a deposit is made using fractional reserve banking.
-
 // all variables representing money are signed 64-bit integers in units of cents.
 
 fn main() {
