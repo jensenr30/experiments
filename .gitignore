@@ -27,5 +27,6 @@ Harmonics\ Visualizer/gamelog.txt
 Harmonics\ Visualizer/error.txt
 
 Rust/*/target/*
-Rust/*/.vscode/*
+
+**/.vscode/**
 
