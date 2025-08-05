@@ -11,6 +11,11 @@ int main(void) {
         for (int i = 0; i < 1000; i++) {
             // trying to replicate a bug where nanosleep() hangs
             SDL_Delay(1);
+
+            // show when the app hangs
+            if (i % 100 == 0) {
+                std::cout << 'a' + i/100 << std::flush;
+            }
         }
 
         pid_t current_pid = getpid();
